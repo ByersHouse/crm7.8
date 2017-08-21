@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 17:16:25
+// created: 2017-08-21 17:29:00
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -9,7 +9,7 @@ $mod_strings = array (
   'LBL_INN' => 'ИНН',
   'LBL_DATE_BIRTHDAY' => 'Дата рождения',
   'LBL_SOC_STATUS' => 'Социальный статус',
-  'LBL_STATUS_LIVEPLACE' => 'Статус жилья',
+  'LBL_STATUS_LIVEPLACE' => 'Статус места проживания',
   'LBL_EDUCATION' => 'Образование',
   'LBL_UKRPASPORT_NOM' => 'Серия Номер паспорта Украины',
   'LBL_EDITVIEW_PANEL3' => 'Паспортная информация',
@@ -35,4 +35,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL6' => 'Недвижимость',
   'LBL_REALTYBY' => 'Способ приобретения недвижимости',
   'LBL_REALTYVID' => 'Вид собственности',
+  'LBL_SROK_VLADENIYA' => 'Срок владения недвижимым имуществом',
 );

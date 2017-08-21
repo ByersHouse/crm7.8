@@ -161,6 +161,7 @@ class Lead extends Person {
         var $realty;
         var $realtyby;
         var $realty_vid;
+        var $srok_vladenya_nedvizh;
         
         
         

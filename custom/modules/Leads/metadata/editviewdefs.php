@@ -111,7 +111,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
           ),
-          1 => '',
+          1 => 'phone_mobile',
         ),
         3 => 
         array (
@@ -145,12 +145,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'statliveplace',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS_LIVEPLACE',
-          ),
-          1 => 
-          array (
             'name' => 'education',
             'studio' => 'visible',
             'label' => 'LBL_EDUCATION',
@@ -181,13 +175,9 @@ array (
         ),
         8 => 
         array (
-          0 => 'phone_mobile',
-        ),
-        9 => 
-        array (
           0 => 'phone_fax',
         ),
-        10 => 
+        9 => 
         array (
           0 => 
           array (
@@ -198,11 +188,11 @@ array (
           ),
           1 => 'website',
         ),
-        11 => 
+        10 => 
         array (
           0 => 'email1',
         ),
-        12 => 
+        11 => 
         array (
           0 => 'description',
         ),
@@ -231,6 +221,20 @@ array (
             'name' => 'realty_vid',
             'studio' => 'visible',
             'label' => 'LBL_REALTYVID',
+          ),
+          1 => 
+          array (
+            'name' => 'statliveplace',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS_LIVEPLACE',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'srok_vladenya_nedvizh',
+            'label' => 'LBL_SROK_VLADENIYA',
           ),
           1 => '',
         ),

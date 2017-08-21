@@ -661,3 +661,24 @@ $dictionary['Lead']['fields']['realty_vid'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['Lead']['fields']['srok_vladenya_nedvizh'] = array (
+      'required' => false,
+      'name' => 'srok_vladenya_nedvizh',
+      'vname' => 'LBL_SROK_VLADENIYA',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => ' Срок владения недвижимым имуществом',
+      'help' => 'Срок владения недвижимым имуществом',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );
