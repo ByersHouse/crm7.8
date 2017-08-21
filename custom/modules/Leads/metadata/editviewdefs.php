@@ -43,6 +43,16 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_PANEL_ADVANCED' => 
         array (
           'newTab' => false,
@@ -81,17 +91,20 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_LEAD_STATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'lead_sex',
+            'studio' => 'visible',
+            'label' => 'LBL_LEAD_SEX',
+          ),
         ),
         3 => 
         array (
-          0 => 'title',
-          1 => 'phone_mobile',
+          0 => 'phone_mobile',
         ),
         4 => 
         array (
-          0 => 'department',
-          1 => 'phone_fax',
+          0 => 'phone_fax',
         ),
         5 => 
         array (
@@ -105,6 +118,25 @@ array (
           1 => 'website',
         ),
         6 => 
+        array (
+          0 => 'email1',
+        ),
+        7 => 
+        array (
+          0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 'title',
+          1 => 'department',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
         array (
           0 => 
           array (
@@ -133,14 +165,6 @@ array (
               'maxlength' => 150,
             ),
           ),
-        ),
-        7 => 
-        array (
-          0 => 'email1',
-        ),
-        8 => 
-        array (
-          0 => 'description',
         ),
       ),
       'LBL_PANEL_ADVANCED' => 
