@@ -140,6 +140,7 @@ class Lead extends Person {
         var $soc_status;
         var $statliveplace;
         var $education;
+        var $photo;
         
         
 	var $table_name = "leads";

@@ -87,6 +87,16 @@ array (
         array (
           0 => 
           array (
+            'name' => 'photo',
+            'studio' => 'visible',
+            'label' => 'LBL_PHOTO',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'resident',
             'label' => 'LBL_RESIDENT',
           ),
@@ -96,7 +106,7 @@ array (
             'label' => 'LBL_INN',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -111,7 +121,7 @@ array (
             'label' => 'LBL_LEAD_SEX',
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -126,7 +136,7 @@ array (
             'label' => 'LBL_EDUCATION',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -140,15 +150,15 @@ array (
             'label' => 'LBL_SOC_STATUS',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 'phone_mobile',
         ),
-        7 => 
+        8 => 
         array (
           0 => 'phone_fax',
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -159,11 +169,11 @@ array (
           ),
           1 => 'website',
         ),
-        9 => 
+        10 => 
         array (
           0 => 'email1',
         ),
-        10 => 
+        11 => 
         array (
           0 => 'description',
         ),
