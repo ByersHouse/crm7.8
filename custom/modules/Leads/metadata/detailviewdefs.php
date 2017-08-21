@@ -163,6 +163,16 @@ array (
         array (
           0 => 
           array (
+            'name' => 'statliveplace',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS_LIVEPLACE',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
             'name' => 'date_birthday',
             'label' => 'LBL_DATE_BIRTHDAY',
           ),
@@ -173,15 +183,15 @@ array (
             'label' => 'LBL_SOC_STATUS',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 'phone_mobile',
         ),
-        6 => 
+        7 => 
         array (
           0 => 'phone_fax',
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -189,11 +199,11 @@ array (
           ),
           1 => 'website',
         ),
-        8 => 
+        9 => 
         array (
           0 => 'email1',
         ),
-        9 => 
+        10 => 
         array (
           0 => 'description',
         ),

@@ -136,3 +136,28 @@ $dictionary['Lead']['fields']['soc_status'] = array (
       'studio' => 'visible',
       'isMultiSelect' => true,
     );
+
+
+$dictionary['Lead']['fields']['statliveplace'] = array (
+      'required' => false,
+      'name' => 'statliveplace',
+      'vname' => 'LBL_STATUS_LIVEPLACE',
+      'type' => 'multienum',
+      'massupdate' => 0,
+      'default' => '^^',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'options' => 'lead_statliveplace_list',
+      'studio' => 'visible',
+      'isMultiSelect' => true,
+    );
