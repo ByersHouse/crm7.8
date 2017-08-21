@@ -217,7 +217,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_REALTY',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'realtyby',
+            'studio' => 'visible',
+            'label' => 'LBL_REALTYBY',
+          ),
         ),
       ),
       'lbl_editview_panel5' => 

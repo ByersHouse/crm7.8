@@ -612,3 +612,27 @@ $dictionary['Lead']['fields']['realty'] = array (
       'studio' => 'visible',
       'isMultiSelect' => true,
 );
+
+$dictionary['Lead']['fields']['realtyby'] = array (
+      'required' => false,
+      'name' => 'realtyby',
+      'vname' => 'LBL_REALTYBY',
+      'type' => 'multienum',
+      'massupdate' => 0,
+      'default' => '^^',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'options' => 'lead_realtyby_list',
+      'studio' => 'visible',
+      'isMultiSelect' => true,
+);
