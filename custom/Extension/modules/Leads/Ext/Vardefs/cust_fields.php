@@ -515,3 +515,50 @@ $dictionary['Lead']['fields']['vidnazhit_date_end'] = array (
       'size' => '20',
       'enable_range_search' => false,
 );
+
+
+
+$dictionary['Lead']['fields']['problem_law'] = array (
+      'required' => false,
+      'name' => 'problem_law',
+      'vname' => 'LBL_PROBLEMLAW',
+      'type' => 'multienum',
+      'massupdate' => 0,
+      'default' => '^^',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'options' => 'lead_problemlaw_list',
+      'studio' => 'visible',
+      'isMultiSelect' => true,
+    );
+
+$dictionary['Lead']['fields']['judded_by_article'] = array (
+      'required' => false,
+      'name' => 'judded_by_article',
+      'vname' => 'LBL_JUDDED_BY',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Судимость по статье',
+      'help' => 'Судимость по статье',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );

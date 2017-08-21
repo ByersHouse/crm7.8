@@ -85,6 +85,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
           'newTab' => true,
@@ -235,6 +240,23 @@ array (
         12 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'problem_law',
+            'studio' => 'visible',
+            'label' => 'LBL_PROBLEMLAW',
+          ),
+          1 => 
+          array (
+            'name' => 'judded_by_article',
+            'label' => 'LBL_JUDDED_BY',
+          ),
         ),
       ),
       'lbl_editview_panel3' => 

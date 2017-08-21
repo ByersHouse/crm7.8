@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 15:15:42
+// created: 2017-08-21 15:39:05
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -26,4 +26,7 @@ $mod_strings = array (
   'LBL_VIDNAZHIT' => 'Серия Номер вида на жительство Нерезидента Украины',
   'LBL_VIDNAZHIT_DATEVIDACHI' => 'Дата Выдачи Вида на жительство',
   'LBL_VIDNAZHIT_DATEEND' => 'Вид на жительство дозволенный срок проживания',
+  'LBL_EDITVIEW_PANEL4' => 'Проблемы с законом',
+  'LBL_PROBLEMLAW' => 'Проблемы с законом',
+  'LBL_JUDDED_BY' => 'Судимость по статье',
 );
