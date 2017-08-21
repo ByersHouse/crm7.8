@@ -91,3 +91,24 @@ $dictionary['Lead']['fields']['inn']=array (
       'len' => '15',
       'size' => '20',
     );
+
+$dictionary['Lead']['fields']['date_birthday'] = array (
+      'required' => false,
+      'name' => 'date_birthday',
+      'vname' => 'LBL_DATE_BIRTHDAY',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
