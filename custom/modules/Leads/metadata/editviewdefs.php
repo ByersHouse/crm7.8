@@ -222,6 +222,15 @@ array (
         ),
         2 => 
         array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'zagrpas_date_end',
+            'label' => 'LBL_ZAGRPASP_DATEND',
+          ),
+        ),
+        3 => 
+        array (
           0 => 
           array (
             'name' => 'ukrpas_kemvidan',
@@ -232,6 +241,15 @@ array (
             'name' => 'zagrpas_kemvidan',
             'label' => 'LBL_ZAGRPASP_KEMVIDAN',
           ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'pasport_nom_nerezident',
+            'label' => 'LBL_PASPORTNOM_NER',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel2' => 

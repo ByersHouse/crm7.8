@@ -362,3 +362,49 @@ $dictionary['Lead']['fields']['zagrpas_datavidachy'] = array (
       'size' => '20',
       'enable_range_search' => false,
     );
+
+$dictionary['Lead']['fields']['zagrpas_date_end'] = array (
+      'required' => false,
+      'name' => 'zagrpas_date_end',
+      'vname' => 'LBL_ZAGRPASP_DATEND',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Загран паспорт дата окончания',
+      'help' => 'Загран паспорт дата окончания',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
+
+
+
+
+
+$dictionary['Lead']['fields']['pasport_nom_nerezident'] = array (
+      'required' => false,
+      'name' => 'pasport_nom_nerezident',
+      'vname' => 'LBL_PASPORTNOM_NER',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Серия Номер паспорта Нерезидента Украины',
+      'help' => 'Серия Номер загран паспорта Нерезидента Украины',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+);
