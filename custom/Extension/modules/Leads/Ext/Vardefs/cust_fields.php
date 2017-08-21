@@ -276,3 +276,47 @@ $dictionary['Lead']['fields']['ukrpas_datavidachy'] = array (
       'size' => '20',
       'enable_range_search' => false,
     );
+
+
+$dictionary['Lead']['fields']['placebirth']=array (
+      'required' => false,
+      'name' => 'placebirth',
+      'vname' => 'LBL_PLACEBIRTH',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Место рождения',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '30',
+      'size' => '20',
+    );
+
+
+$dictionary['Lead']['fields']['zagrpasport_nom'] = array (
+      'required' => false,
+      'name' => 'zagrpasport_nom',
+      'vname' => 'LBL_ZAGPASPORT_NOM',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Серия Номер загран паспорта Украины',
+      'help' => 'Серия Номер загран паспорта Украины',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+);

@@ -157,13 +157,22 @@ array (
         ),
         7 => 
         array (
-          0 => 'phone_mobile',
+          0 => 
+          array (
+            'name' => 'placebirth',
+            'label' => 'LBL_PLACEBIRTH',
+          ),
+          1 => '',
         ),
         8 => 
         array (
-          0 => 'phone_fax',
+          0 => 'phone_mobile',
         ),
         9 => 
+        array (
+          0 => 'phone_fax',
+        ),
+        10 => 
         array (
           0 => 
           array (
@@ -174,11 +183,11 @@ array (
           ),
           1 => 'website',
         ),
-        10 => 
+        11 => 
         array (
           0 => 'email1',
         ),
-        11 => 
+        12 => 
         array (
           0 => 'description',
         ),
@@ -204,6 +213,15 @@ array (
           array (
             'name' => 'ukrpas_datavidachy',
             'label' => 'LBL_UKRPASP_DATAVIDACHY',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'zagrpasport_nom',
+            'label' => 'LBL_ZAGPASPORT_NOM',
           ),
           1 => '',
         ),
