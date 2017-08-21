@@ -450,4 +450,25 @@ $dictionary['Lead']['fields']['nerezpas_date_end'] = array (
       'merge_filter' => 'disabled',
       'size' => '20',
       'enable_range_search' => false,
-    );
+);
+
+$dictionary['Lead']['fields']['vidnazhit_nom'] = array (
+      'required' => false,
+      'name' => 'vidnazhit_nom',
+      'vname' => 'LBL_VIDNAZHIT',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Серия Номер вида на жительство Нерезидента Украины',
+      'help' => 'Серия Номер вида на жительство Нерезидента Украины',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+);

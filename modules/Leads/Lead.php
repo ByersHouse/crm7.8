@@ -152,6 +152,7 @@ class Lead extends Person {
         var $pasport_nom_nerezident;
         var $nerezpas_date_vidachi;
         var $nerezpas_date_end;
+        var $vidnazhit_nom;
         
         
         

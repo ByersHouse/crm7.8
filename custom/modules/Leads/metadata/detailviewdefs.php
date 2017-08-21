@@ -309,6 +309,15 @@ array (
           ),
           1 => '',
         ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vidnazhit_nom',
+            'label' => 'LBL_VIDNAZHIT',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (
