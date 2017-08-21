@@ -43,6 +43,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL5' => 
         array (
           'newTab' => true,
@@ -200,6 +205,19 @@ array (
         12 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'realty',
+            'studio' => 'visible',
+            'label' => 'LBL_REALTY',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 

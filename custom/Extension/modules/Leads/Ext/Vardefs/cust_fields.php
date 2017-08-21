@@ -540,7 +540,7 @@ $dictionary['Lead']['fields']['problem_law'] = array (
       'options' => 'lead_problemlaw_list',
       'studio' => 'visible',
       'isMultiSelect' => true,
-    );
+);
 
 $dictionary['Lead']['fields']['judded_by_article'] = array (
       'required' => false,
@@ -586,4 +586,29 @@ $dictionary['Lead']['fields']['family_status'] = array (
       'options' => 'lead_familystatus_list',
       'studio' => 'visible',
       'dependency' => false,
+);
+
+
+$dictionary['Lead']['fields']['realty'] = array (
+      'required' => false,
+      'name' => 'realty',
+      'vname' => 'LBL_REALTY',
+      'type' => 'multienum',
+      'massupdate' => 0,
+      'default' => '^^',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'options' => 'lead_realty_list',
+      'studio' => 'visible',
+      'isMultiSelect' => true,
 );

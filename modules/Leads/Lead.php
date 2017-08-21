@@ -158,6 +158,7 @@ class Lead extends Person {
         var $problem_law;
         var $judded_by_article;
         var $family_status;
+        var $realty;
         
         
         
