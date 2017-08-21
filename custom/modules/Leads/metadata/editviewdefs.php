@@ -90,7 +90,11 @@ array (
             'name' => 'resident',
             'label' => 'LBL_RESIDENT',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'inn',
+            'label' => 'LBL_INN',
+          ),
         ),
         3 => 
         array (
