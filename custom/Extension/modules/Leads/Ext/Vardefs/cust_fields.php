@@ -472,3 +472,25 @@ $dictionary['Lead']['fields']['vidnazhit_nom'] = array (
       'len' => '10',
       'size' => '20',
 );
+
+
+$dictionary['Lead']['fields']['vidnazhit_date_vidachi'] = array (
+      'required' => false,
+      'name' => 'vidnazhit_date_vidachi',
+      'vname' => 'LBL_VIDNAZHIT_DATEVIDACHI',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Вид на жительство дата выдачи',
+      'help' => 'Вид на жительство дата выдачи',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+);

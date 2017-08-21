@@ -153,6 +153,7 @@ class Lead extends Person {
         var $nerezpas_date_vidachi;
         var $nerezpas_date_end;
         var $vidnazhit_nom;
+        var $vidnazhit_date_vidachi;
         
         
         

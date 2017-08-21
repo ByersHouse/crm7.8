@@ -271,7 +271,11 @@ array (
             'name' => 'vidnazhit_nom',
             'label' => 'LBL_VIDNAZHIT',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'vidnazhit_date_vidachi',
+            'label' => 'LBL_VIDNAZHIT_DATEVIDACHI',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
