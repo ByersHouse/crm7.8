@@ -137,6 +137,7 @@ class Lead extends Person {
         var $resident;
         var $inn;
         var $date_birthday;
+        var $soc_status;
 
 	var $table_name = "leads";
 	var $object_name = "Lead";

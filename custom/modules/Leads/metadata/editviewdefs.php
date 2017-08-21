@@ -113,13 +113,27 @@ array (
         ),
         4 => 
         array (
-          0 => 'phone_mobile',
+          0 => 
+          array (
+            'name' => 'date_birthday',
+            'label' => 'LBL_DATE_BIRTHDAY',
+          ),
+          1 => 
+          array (
+            'name' => 'soc_status',
+            'studio' => 'visible',
+            'label' => 'LBL_SOC_STATUS',
+          ),
         ),
         5 => 
         array (
-          0 => 'phone_fax',
+          0 => 'phone_mobile',
         ),
         6 => 
+        array (
+          0 => 'phone_fax',
+        ),
+        7 => 
         array (
           0 => 
           array (
@@ -130,11 +144,11 @@ array (
           ),
           1 => 'website',
         ),
-        7 => 
+        8 => 
         array (
           0 => 'email1',
         ),
-        8 => 
+        9 => 
         array (
           0 => 'description',
         ),

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 11:17:31
+// created: 2017-08-21 11:35:20
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -7,4 +7,6 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL2' => 'Служебная информация',
   'LBL_RESIDENT' => 'Резидент /Не резидент Украины',
   'LBL_INN' => 'ИНН',
+  'LBL_DATE_BIRTHDAY' => 'Дата рождения',
+  'LBL_SOC_STATUS' => 'Социальный статус',
 );
