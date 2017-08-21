@@ -48,3 +48,25 @@ $dictionary['Lead']['fields']['lead_sex'] = array (
       'studio' => 'visible',
       'dependency' => false,
     );
+
+$dictionary['Lead']['fields']['resident'] = array (
+      'required' => false,
+      'name' => 'resident',
+      'vname' => 'LBL_RESIDENT',
+      'type' => 'bool',
+      'massupdate' => 0,
+      'default' => '0',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );
