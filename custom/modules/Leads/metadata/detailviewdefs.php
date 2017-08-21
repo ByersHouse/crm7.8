@@ -77,37 +77,37 @@ array (
           'file' => 'modules/Leads/Lead.js',
         ),
       ),
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_CONTACT_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL_ADVANCED' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_PANEL_ASSIGNMENT' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -321,6 +321,15 @@ array (
             'name' => 'vidnazhit_date_vidachi',
             'label' => 'LBL_VIDNAZHIT_DATEVIDACHI',
           ),
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vidnazhit_date_end',
+            'label' => 'LBL_VIDNAZHIT_DATEEND',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel2' => 
