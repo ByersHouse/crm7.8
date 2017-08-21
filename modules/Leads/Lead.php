@@ -132,7 +132,7 @@ class Lead extends Person {
     var $alt_address_street_3;
     var $primary_address_street_2;
     var $primary_address_street_3;
-
+        var $lead_status;
 
 	var $table_name = "leads";
 	var $object_name = "Lead";
