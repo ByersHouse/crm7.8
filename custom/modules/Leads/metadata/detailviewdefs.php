@@ -268,7 +268,11 @@ array (
             'name' => 'zagrpasport_nom',
             'label' => 'LBL_ZAGPASPORT_NOM',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'zagrpas_kemvidan',
+            'label' => 'LBL_ZAGRPASP_KEMVIDAN',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:47:44
+// created: 2017-08-21 12:55:54
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -17,4 +17,5 @@ $mod_strings = array (
   'LBL_UKRPASP_DATAVIDACHY' => 'Дата выдачи Украинского паспорта',
   'LBL_PLACEBIRTH' => 'Место рождения',
   'LBL_ZAGPASPORT_NOM' => 'Серия Номер заграничного паспорта Украины',
+  'LBL_ZAGRPASP_KEMVIDAN' => 'Украинский заграничный паспорт Кем выдан',
 );
