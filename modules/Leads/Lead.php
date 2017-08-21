@@ -143,6 +143,8 @@ class Lead extends Person {
         var $photo;
         var $ukrpasport_nom;
         var $ukrpas_kemvidan;
+        var $ukrpas_datavidachy;
+        
         
         
 	var $table_name = "leads";

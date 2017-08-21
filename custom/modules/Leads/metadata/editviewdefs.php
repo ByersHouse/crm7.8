@@ -198,6 +198,15 @@ array (
             'label' => 'LBL_UKRPASP_KEMVIDAN',
           ),
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ukrpas_datavidachy',
+            'label' => 'LBL_UKRPASP_DATAVIDACHY',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (

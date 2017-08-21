@@ -255,3 +255,24 @@ $dictionary['Lead']['fields']['ukrpas_kemvidan'] = array (
       'len' => '255',
       'size' => '20',
     );
+
+$dictionary['Lead']['fields']['ukrpas_datavidachy'] = array (
+      'required' => false,
+      'name' => 'ukrpas_datavidachy',
+      'vname' => 'LBL_UKRPASP_DATAVIDACHY',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Украинский паспорт дата выдачи',
+      'help' => 'Украинский паспорт дата выдачи',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
