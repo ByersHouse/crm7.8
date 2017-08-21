@@ -300,6 +300,15 @@ array (
             'label' => 'LBL_NEREZPASP_DATEVIDACHI',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'nerezpas_date_end',
+            'label' => 'LBL_NEREZPASP_DATEEND',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (

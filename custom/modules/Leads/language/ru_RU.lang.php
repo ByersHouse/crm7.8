@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 14:29:09
+// created: 2017-08-21 14:41:21
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -22,4 +22,5 @@ $mod_strings = array (
   'LBL_PASPORTNOM_NER' => 'Серия Номер паспорта Нерезидента Украины',
   'LBL_ZAGRPASP_DATEND' => 'Дата окончания действия загранпаспорта',
   'LBL_NEREZPASP_DATEVIDACHI' => 'Дата выдачи паспорта Нерезидента Украины',
+  'LBL_NEREZPASP_DATEEND' => 'Дата окончания срока действия паспорта Нерезидента Украины',
 );
