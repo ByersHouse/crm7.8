@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 12:03:50
+// created: 2017-08-21 12:23:14
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -11,4 +11,7 @@ $mod_strings = array (
   'LBL_SOC_STATUS' => 'Социальный статус',
   'LBL_STATUS_LIVEPLACE' => 'Статус жилья',
   'LBL_EDUCATION' => 'Образование',
+  'LBL_UKRPASPORT_NOM' => 'Серия Номер паспорта Украины',
+  'LBL_EDITVIEW_PANEL3' => 'Паспортная информация',
+  'LBL_UKRPASP_KEMVIDAN' => 'Украинский паспорт кем выдан',
 );

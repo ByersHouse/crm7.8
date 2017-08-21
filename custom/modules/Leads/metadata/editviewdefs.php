@@ -43,6 +43,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
           'newTab' => false,
@@ -176,6 +181,22 @@ array (
         11 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ukrpasport_nom',
+            'label' => 'LBL_UKRPASPORT_NOM',
+          ),
+          1 => 
+          array (
+            'name' => 'ukrpas_kemvidan',
+            'label' => 'LBL_UKRPASP_KEMVIDAN',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

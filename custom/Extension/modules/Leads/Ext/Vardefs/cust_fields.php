@@ -211,3 +211,47 @@ $dictionary['Lead']['fields']['photo'] = array (
       'width' => '120',
       'height' => '240',
     );
+
+
+$dictionary['Lead']['fields']['ukrpasport_nom'] = array (
+      'required' => false,
+      'name' => 'ukrpasport_nom',
+      'vname' => 'LBL_UKRPASPORT_NOM',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Серия Номер паспорта Украины',
+      'help' => 'Серия Номер паспорта Украины',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+);
+
+
+$dictionary['Lead']['fields']['ukrpas_kemvidan'] = array (
+      'required' => false,
+      'name' => 'ukrpas_kemvidan',
+      'vname' => 'LBL_UKRPASP_KEMVIDAN',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Украинский паспорт кем выдан',
+      'help' => 'Украинский паспорт кем выдан',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );

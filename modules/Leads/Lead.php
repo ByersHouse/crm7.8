@@ -141,6 +141,8 @@ class Lead extends Person {
         var $statliveplace;
         var $education;
         var $photo;
+        var $ukrpasport_nom;
+        var $ukrpas_kemvidan;
         
         
 	var $table_name = "leads";
