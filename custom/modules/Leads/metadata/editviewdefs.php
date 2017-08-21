@@ -203,8 +203,8 @@ array (
           ),
           1 => 
           array (
-            'name' => 'ukrpas_kemvidan',
-            'label' => 'LBL_UKRPASP_KEMVIDAN',
+            'name' => 'zagrpasport_nom',
+            'label' => 'LBL_ZAGPASPORT_NOM',
           ),
         ),
         1 => 
@@ -214,14 +214,18 @@ array (
             'name' => 'ukrpas_datavidachy',
             'label' => 'LBL_UKRPASP_DATAVIDACHY',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'zagrpas_datavidachy',
+            'label' => 'LBL_ZAGRPASP_DATAVIDACHY',
+          ),
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'zagrpasport_nom',
-            'label' => 'LBL_ZAGPASPORT_NOM',
+            'name' => 'ukrpas_kemvidan',
+            'label' => 'LBL_UKRPASP_KEMVIDAN',
           ),
           1 => 
           array (

@@ -341,3 +341,24 @@ $dictionary['Lead']['fields']['zagrpas_kemvidan'] = array (
       'len' => '255',
       'size' => '20',
     );
+
+$dictionary['Lead']['fields']['zagrpas_datavidachy'] = array (
+      'required' => false,
+      'name' => 'zagrpas_datavidachy',
+      'vname' => 'LBL_ZAGRPASP_DATAVIDACHY',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Загран паспорт дата выдачи',
+      'help' => 'Загран паспорт дата выдачи',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
