@@ -160,6 +160,7 @@ class Lead extends Person {
         var $family_status;
         var $realty;
         var $realtyby;
+        var $realty_vid;
         
         
         
