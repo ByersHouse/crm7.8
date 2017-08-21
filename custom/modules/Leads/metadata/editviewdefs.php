@@ -119,7 +119,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_STATUS_LIVEPLACE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'education',
+            'studio' => 'visible',
+            'label' => 'LBL_EDUCATION',
+          ),
         ),
         5 => 
         array (

@@ -139,6 +139,7 @@ class Lead extends Person {
         var $date_birthday;
         var $soc_status;
         var $statliveplace;
+        var $education;
         
         
 	var $table_name = "leads";

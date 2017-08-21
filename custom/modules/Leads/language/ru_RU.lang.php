@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-21 11:54:10
+// created: 2017-08-21 12:03:50
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -10,4 +10,5 @@ $mod_strings = array (
   'LBL_DATE_BIRTHDAY' => 'Дата рождения',
   'LBL_SOC_STATUS' => 'Социальный статус',
   'LBL_STATUS_LIVEPLACE' => 'Статус жилья',
+  'LBL_EDUCATION' => 'Образование',
 );
