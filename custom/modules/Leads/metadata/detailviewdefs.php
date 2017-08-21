@@ -135,6 +135,15 @@ array (
         array (
           0 => 
           array (
+            'name' => 'resident',
+            'label' => 'LBL_RESIDENT',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'lead_status',
             'studio' => 'visible',
             'label' => 'LBL_LEAD_STATUS',
@@ -146,15 +155,15 @@ array (
             'label' => 'LBL_LEAD_SEX',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 'phone_mobile',
         ),
-        4 => 
+        5 => 
         array (
           0 => 'phone_fax',
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -162,11 +171,11 @@ array (
           ),
           1 => 'website',
         ),
-        6 => 
+        7 => 
         array (
           0 => 'email1',
         ),
-        7 => 
+        8 => 
         array (
           0 => 'description',
         ),
