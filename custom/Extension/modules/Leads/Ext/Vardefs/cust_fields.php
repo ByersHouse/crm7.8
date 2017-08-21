@@ -320,3 +320,24 @@ $dictionary['Lead']['fields']['zagrpasport_nom'] = array (
       'len' => '10',
       'size' => '20',
 );
+
+$dictionary['Lead']['fields']['zagrpas_kemvidan'] = array (
+      'required' => false,
+      'name' => 'zagrpas_kemvidan',
+      'vname' => 'LBL_ZAGRPASP_KEMVIDAN',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => ' Заграничный Украинский паспорт кем выдан',
+      'help' => 'Заграничный Украинский паспорт кем выдан',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );

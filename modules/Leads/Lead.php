@@ -146,6 +146,7 @@ class Lead extends Person {
         var $ukrpas_datavidachy;
         var $placebirth;
         var $zagrpasport_nom;
+        var $zagrpas_kemvidan;
         
         
         
