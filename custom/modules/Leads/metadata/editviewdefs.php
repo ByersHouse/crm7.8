@@ -43,6 +43,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL4' => 
         array (
           'newTab' => true,
@@ -195,6 +200,19 @@ array (
         12 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'family_status',
+            'studio' => 'visible',
+            'label' => 'LBL_FAMILYSTATUS',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel4' => 

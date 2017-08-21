@@ -562,3 +562,28 @@ $dictionary['Lead']['fields']['judded_by_article'] = array (
       'len' => '255',
       'size' => '20',
     );
+
+
+$dictionary['Lead']['fields']['family_status'] = array (
+      'required' => false,
+      'name' => 'family_status',
+      'vname' => 'LBL_FAMILYSTATUS',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_familystatus_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
