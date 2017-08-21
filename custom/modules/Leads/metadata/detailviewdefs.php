@@ -294,7 +294,11 @@ array (
             'name' => 'pasport_nom_nerezident',
             'label' => 'LBL_PASPORTNOM_NER',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'nerezpas_date_vidachi',
+            'label' => 'LBL_NEREZPASP_DATEVIDACHI',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

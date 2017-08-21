@@ -150,6 +150,8 @@ class Lead extends Person {
         var $zagrpas_datavidachy;
         var $zagrpas_date_end;
         var $pasport_nom_nerezident;
+        var $nerezpas_date_vidachi;
+        
         
         
         
