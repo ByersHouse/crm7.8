@@ -294,7 +294,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_EARNMETHOD',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'org_earn_level',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGEARNLEVEL',
+          ),
         ),
       ),
       'lbl_editview_panel7' => 

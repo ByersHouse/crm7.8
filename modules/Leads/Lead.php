@@ -211,6 +211,7 @@ class Lead extends Person {
         var $org_workstage_months;
         var $org_workstage_years;
         var $org_earn_method;
+        var $org_earn_level;
         
         
         
