@@ -1571,7 +1571,7 @@ $dictionary['Lead']['fields']['orgname']=array (
       'merge_filter' => 'disabled',
       'len' => '255',
       'size' => '20',
-    );
+);
 
 $dictionary['Lead']['fields']['org_legal_form'] = array (
       'required' => false,
@@ -1667,4 +1667,25 @@ $dictionary['Lead']['fields']['org_position'] = array (
       'options' => 'lead_orgposition_list',
       'studio' => 'visible',
       'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['org_specialization']=array (
+      'required' => false,
+      'name' => 'org_specialization',
+      'vname' => 'LBL_ORGSPECIALIZATION',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Специализация (например, наладчик, машинист и т.д.)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
 );

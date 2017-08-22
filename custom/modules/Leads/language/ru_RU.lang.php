@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-22 15:57:29
+// created: 2017-08-22 16:07:34
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -78,4 +78,5 @@ $mod_strings = array (
   'LBL_ORGSIZE' => 'Размер организации/предприятия',
   'LBL_ORGSPHERE' => 'Сфера деятельности предприятия',
   'LBL_ORGPOSITION' => 'Должность в организации',
+  'LBL_ORGSPECIALIZATION' => 'Специализация',
 );

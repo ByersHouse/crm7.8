@@ -203,6 +203,7 @@ class Lead extends Person {
         var $org_size;
         var $org_sphere;
         var $org_position;
+        var $org_specialization;
         
         
         

@@ -280,12 +280,16 @@ array (
         ),
         2 => 
         array (
-          0 => 'department',
-          1 => 
+          0 => 
           array (
             'name' => 'org_position',
             'studio' => 'visible',
             'label' => 'LBL_ORGPOSITION',
+          ),
+          1 => 
+          array (
+            'name' => 'org_specialization',
+            'label' => 'LBL_ORGSPECIALIZATION',
           ),
         ),
       ),
