@@ -271,12 +271,22 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_ORGSIZE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'org_sphere',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGSPHERE',
+          ),
         ),
         2 => 
         array (
-          0 => 'title',
-          1 => 'department',
+          0 => 'department',
+          1 => 
+          array (
+            'name' => 'org_position',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGPOSITION',
+          ),
         ),
       ),
       'lbl_editview_panel7' => 
