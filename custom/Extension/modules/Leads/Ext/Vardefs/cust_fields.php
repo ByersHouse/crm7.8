@@ -780,3 +780,24 @@ $dictionary['Lead']['fields']['trans1_manufacturer'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['Lead']['fields']['model_trans1'] = array (
+      'required' => false,
+      'name' => 'model_trans1',
+      'vname' => 'LBL_MODEL_TRANS1',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Модель транспорта 1',
+      'help' => 'Модель транспорта 1',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '50',
+      'size' => '20',
+    );

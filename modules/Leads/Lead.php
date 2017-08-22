@@ -166,6 +166,7 @@ class Lead extends Person {
         var $how_buytransport1;
         var $yearissuetrans1;
         var $trans1_manufacturer;
+        var $model_trans1;
         
         
         

@@ -243,6 +243,15 @@ array (
           ),
           1 => '',
         ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'model_trans1',
+            'label' => 'LBL_MODEL_TRANS1',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel6' => 
       array (
