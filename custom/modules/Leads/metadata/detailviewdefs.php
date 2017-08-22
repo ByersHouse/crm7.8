@@ -335,9 +335,24 @@ array (
         ),
         6 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'fuel_type_trans1',
+            'studio' => 'visible',
+            'label' => 'LBL_FUELTYPETRANS1',
+          ),
+          1 => 
+          array (
+            'name' => 'fuel_type_trans2',
+            'studio' => 'visible',
+            'label' => 'LBL_FUELTYPETRANS2',
+          ),
         ),
         7 => 
+        array (
+          0 => '',
+        ),
+        8 => 
         array (
           0 => 
           array (
@@ -352,7 +367,7 @@ array (
             'label' => 'LBL_TRANSOWNER4',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -367,7 +382,7 @@ array (
             'label' => 'LBL_HOWBUYTRANS4',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -380,7 +395,7 @@ array (
             'label' => 'LBL_YEARISSUETR4',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -395,7 +410,7 @@ array (
             'label' => 'LBL_TRANS4MANUFACT',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
@@ -408,7 +423,7 @@ array (
             'label' => 'LBL_MODEL_TRANS4',
           ),
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -419,6 +434,21 @@ array (
           array (
             'name' => 'volume_trans4',
             'label' => 'LBL_VOLUME_TRANS4',
+          ),
+        ),
+        14 => 
+        array (
+          0 => 
+          array (
+            'name' => 'fuel_type_trans3',
+            'studio' => 'visible',
+            'label' => 'LBL_FUELTYPETRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'fuel_type_trans4',
+            'studio' => 'visible',
+            'label' => 'LBL_FUELTYPETRANS4',
           ),
         ),
       ),

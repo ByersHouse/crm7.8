@@ -1223,7 +1223,6 @@ $dictionary['Lead']['fields']['volume_trans2'] = array (
       'size' => '20',
     );
 
-/**/
 
 $dictionary['Lead']['fields']['volume_trans3'] = array (
       'required' => false,
@@ -1268,4 +1267,101 @@ $dictionary['Lead']['fields']['volume_trans4'] = array (
     );
 
 
+$dictionary['Lead']['fields']['fuel_type_trans1'] = array (
+      'required' => false,
+      'name' => 'fuel_type_trans1',
+      'vname' => 'LBL_FUELTYPETRANS1',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_fueltype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['fuel_type_trans2'] = array (
+      'required' => false,
+      'name' => 'fuel_type_trans2',
+      'vname' => 'LBL_FUELTYPETRANS2',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_fueltype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
 /**/
+
+$dictionary['Lead']['fields']['fuel_type_trans3'] = array (
+      'required' => false,
+      'name' => 'fuel_type_trans3',
+      'vname' => 'LBL_FUELTYPETRANS3',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_fueltype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['fuel_type_trans4'] = array (
+      'required' => false,
+      'name' => 'fuel_type_trans4',
+      'vname' => 'LBL_FUELTYPETRANS4',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_fueltype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
