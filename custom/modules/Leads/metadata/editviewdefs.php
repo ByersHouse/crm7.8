@@ -320,9 +320,22 @@ array (
         ),
         8 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'zalog_trans1',
+            'label' => 'LBL_ZALOGTRANS1',
+          ),
+          1 => 
+          array (
+            'name' => 'zalog_trans2',
+            'label' => 'LBL_ZALOGTRANS2',
+          ),
         ),
         9 => 
+        array (
+          0 => '',
+        ),
+        10 => 
         array (
           0 => 
           array (
@@ -337,7 +350,7 @@ array (
             'label' => 'LBL_TRANSOWNER4',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -352,7 +365,7 @@ array (
             'label' => 'LBL_HOWBUYTRANS4',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
@@ -365,7 +378,7 @@ array (
             'label' => 'LBL_YEARISSUETR4',
           ),
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -380,7 +393,7 @@ array (
             'label' => 'LBL_TRANS4MANUFACT',
           ),
         ),
-        13 => 
+        14 => 
         array (
           0 => 
           array (
@@ -393,7 +406,7 @@ array (
             'label' => 'LBL_MODEL_TRANS4',
           ),
         ),
-        14 => 
+        15 => 
         array (
           0 => 
           array (
@@ -406,7 +419,7 @@ array (
             'label' => 'LBL_VOLUME_TRANS4',
           ),
         ),
-        15 => 
+        16 => 
         array (
           0 => 
           array (
@@ -421,7 +434,7 @@ array (
             'label' => 'LBL_FUELTYPETRANS4',
           ),
         ),
-        16 => 
+        17 => 
         array (
           0 => 
           array (
@@ -434,6 +447,19 @@ array (
             'name' => 'type_owner_trans4',
             'studio' => 'visible',
             'label' => 'LBL_TYPEOWNERTRANS4',
+          ),
+        ),
+        18 => 
+        array (
+          0 => 
+          array (
+            'name' => 'zalog_trans3',
+            'label' => 'LBL_ZALOGTRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'zalog_trans4',
+            'label' => 'LBL_ZALOGTRANS4',
           ),
         ),
       ),
