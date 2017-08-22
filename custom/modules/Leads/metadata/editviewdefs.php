@@ -307,6 +307,21 @@ array (
             'label' => 'LBL_TRANSOWNER4',
           ),
         ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'how_buytransport3',
+            'studio' => 'visible',
+            'label' => 'LBL_HOWBUYTRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'how_buytransport4',
+            'studio' => 'visible',
+            'label' => 'LBL_HOWBUYTRANS4',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (
