@@ -1133,7 +1133,7 @@ $dictionary['Lead']['fields']['model_trans2'] = array (
       'size' => '20',
     );
 
-/**/
+
 
 $dictionary['Lead']['fields']['model_trans3'] = array (
       'required' => false,
@@ -1178,7 +1178,7 @@ $dictionary['Lead']['fields']['model_trans4'] = array (
     );
 
 
-/**/
+
 
 
 $dictionary['Lead']['fields']['volume_trans1'] = array (
@@ -1222,3 +1222,50 @@ $dictionary['Lead']['fields']['volume_trans2'] = array (
       'len' => '10',
       'size' => '20',
     );
+
+/**/
+
+$dictionary['Lead']['fields']['volume_trans3'] = array (
+      'required' => false,
+      'name' => 'volume_trans3',
+      'vname' => 'LBL_VOLUME_TRANS3',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Обьем двигателя транспорта 3',
+      'help' => 'Обьем двигателя транспорта 3',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+    );
+
+$dictionary['Lead']['fields']['volume_trans4'] = array (
+      'required' => false,
+      'name' => 'volume_trans4',
+      'vname' => 'LBL_VOLUME_TRANS4',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Обьем двигателя транспорта 4',
+      'help' => 'Обьем двигателя транспорта 4',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '10',
+      'size' => '20',
+    );
+
+
+/**/

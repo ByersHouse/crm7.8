@@ -363,6 +363,19 @@ array (
             'label' => 'LBL_MODEL_TRANS4',
           ),
         ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'volume_trans3',
+            'label' => 'LBL_VOLUME_TRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'volume_trans4',
+            'label' => 'LBL_VOLUME_TRANS4',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (
