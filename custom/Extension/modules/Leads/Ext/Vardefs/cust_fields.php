@@ -1365,3 +1365,27 @@ $dictionary['Lead']['fields']['fuel_type_trans4'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['Lead']['fields']['type_owner_trans1'] = array (
+      'required' => false,
+      'name' => 'type_owner_trans1',
+      'vname' => 'LBL_TYPEOWNERTRANS1',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_typeownertrans_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);

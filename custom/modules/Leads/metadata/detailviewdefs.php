@@ -350,9 +350,19 @@ array (
         ),
         7 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'type_owner_trans1',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPEOWNERTRANS1',
+          ),
+          1 => '',
         ),
         8 => 
+        array (
+          0 => '',
+        ),
+        9 => 
         array (
           0 => 
           array (
@@ -367,7 +377,7 @@ array (
             'label' => 'LBL_TRANSOWNER4',
           ),
         ),
-        9 => 
+        10 => 
         array (
           0 => 
           array (
@@ -382,7 +392,7 @@ array (
             'label' => 'LBL_HOWBUYTRANS4',
           ),
         ),
-        10 => 
+        11 => 
         array (
           0 => 
           array (
@@ -395,7 +405,7 @@ array (
             'label' => 'LBL_YEARISSUETR4',
           ),
         ),
-        11 => 
+        12 => 
         array (
           0 => 
           array (
@@ -410,7 +420,7 @@ array (
             'label' => 'LBL_TRANS4MANUFACT',
           ),
         ),
-        12 => 
+        13 => 
         array (
           0 => 
           array (
@@ -423,7 +433,7 @@ array (
             'label' => 'LBL_MODEL_TRANS4',
           ),
         ),
-        13 => 
+        14 => 
         array (
           0 => 
           array (
@@ -436,7 +446,7 @@ array (
             'label' => 'LBL_VOLUME_TRANS4',
           ),
         ),
-        14 => 
+        15 => 
         array (
           0 => 
           array (

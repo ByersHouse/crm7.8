@@ -190,7 +190,7 @@ class Lead extends Person {
         var $fuel_type_trans2;
         var $fuel_type_trans3;
         var $fuel_type_trans4;
-        
+        var $type_owner_trans1;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";
