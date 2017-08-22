@@ -311,7 +311,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TYPEOWNERTRANS1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'type_owner_trans2',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPEOWNERTRANS2',
+          ),
         ),
         8 => 
         array (
@@ -414,6 +419,21 @@ array (
             'name' => 'fuel_type_trans4',
             'studio' => 'visible',
             'label' => 'LBL_FUELTYPETRANS4',
+          ),
+        ),
+        16 => 
+        array (
+          0 => 
+          array (
+            'name' => 'type_owner_trans3',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPEOWNERTRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'type_owner_trans4',
+            'studio' => 'visible',
+            'label' => 'LBL_TYPEOWNERTRANS4',
           ),
         ),
       ),
