@@ -811,6 +811,30 @@ $dictionary['Lead']['fields']['yearissuetrans1'] = array (
       'size' => '20',
     );
 
+
+
+
+$dictionary['Lead']['fields']['yearissuetrans2'] = array (
+      'required' => false,
+      'name' => 'yearissuetrans2',
+      'vname' => 'LBL_YEARISSUETR2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Год выпуска транспорта 1',
+      'help' => 'Год выпуска транспорта 1',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '20',
+    );
+
 $dictionary['Lead']['fields']['trans1_manufacturer'] = array (
       'required' => false,
       'name' => 'trans1_manufacturer',
@@ -834,6 +858,32 @@ $dictionary['Lead']['fields']['trans1_manufacturer'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['Lead']['fields']['trans2_manufacturer'] = array (
+      'required' => false,
+      'name' => 'trans2_manufacturer',
+      'vname' => 'LBL_TRANS2MANUFACT',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_manufacturer_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
 
 $dictionary['Lead']['fields']['model_trans1'] = array (
       'required' => false,

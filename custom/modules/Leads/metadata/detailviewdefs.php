@@ -257,7 +257,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TRANSOWNER1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'transport_owner2',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANSOWNER2',
+          ),
         ),
         1 => 
         array (
@@ -267,7 +272,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_HOWBUYTRANS1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'how_buytransport2',
+            'studio' => 'visible',
+            'label' => 'LBL_HOWBUYTRANS2',
+          ),
         ),
         2 => 
         array (
@@ -276,7 +286,11 @@ array (
             'name' => 'yearissuetrans1',
             'label' => 'LBL_YEARISSUETR1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'yearissuetrans2',
+            'label' => 'LBL_YEARISSUETR2',
+          ),
         ),
         3 => 
         array (
@@ -286,7 +300,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_TRANS1MANUFACT',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'trans2_manufacturer',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANS2MANUFACT',
+          ),
         ),
         4 => 
         array (
