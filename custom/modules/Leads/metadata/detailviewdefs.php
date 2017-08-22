@@ -85,6 +85,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL7' => 
         array (
           'newTab' => true,
@@ -106,11 +111,6 @@ array (
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL3' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL2' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -245,6 +245,23 @@ array (
         11 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'orgname',
+            'label' => 'LBL_ORGNAME',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 'title',
+          1 => 'department',
         ),
       ),
       'lbl_editview_panel7' => 
@@ -673,14 +690,6 @@ array (
             'label' => 'LBL_VIDNAZHIT_DATEEND',
           ),
           1 => '',
-        ),
-      ),
-      'lbl_editview_panel2' => 
-      array (
-        0 => 
-        array (
-          0 => 'title',
-          1 => 'department',
         ),
       ),
       'lbl_editview_panel1' => 

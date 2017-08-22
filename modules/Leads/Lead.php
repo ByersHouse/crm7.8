@@ -198,6 +198,9 @@ class Lead extends Person {
         var $zalog_trans2;
         var $zalog_trans3;
         var $zalog_trans4;
+        var $orgname;
+        
+        
         
 	var $table_name = "leads";
 	var $object_name = "Lead";
