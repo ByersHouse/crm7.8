@@ -200,6 +200,7 @@ class Lead extends Person {
         var $zalog_trans4;
         var $orgname;
         var $orglegalform;
+        var $org_size;
         
         
         

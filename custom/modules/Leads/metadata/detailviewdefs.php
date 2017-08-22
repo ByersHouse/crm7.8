@@ -265,6 +265,16 @@ array (
         ),
         1 => 
         array (
+          0 => 
+          array (
+            'name' => 'org_size',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGSIZE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
           0 => 'title',
           1 => 'department',
         ),
