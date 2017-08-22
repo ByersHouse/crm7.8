@@ -1818,3 +1818,28 @@ $dictionary['Lead']['fields']['org_workstage_years']=array (
       'len' => '',
       'size' => '5',
 );
+
+
+$dictionary['Lead']['fields']['org_earn_method'] = array (
+      'required' => false,
+      'name' => 'org_earn_method',
+      'vname' => 'LBL_EARNMETHOD',
+      'type' => 'multienum',
+      'massupdate' => 0,
+      'default' => '^^',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'options' => 'lead_earnmethod_list',
+      'studio' => 'visible',
+      'isMultiSelect' => true,
+);

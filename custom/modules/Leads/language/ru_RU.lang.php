@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-22 17:17:16
+// created: 2017-08-22 17:29:00
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -85,4 +85,5 @@ $mod_strings = array (
   'LBL_ORGWORKYEARS' => 'Срок деятельности в данной организации/предприятии (лет)',
   'LBL_ORGWORKSTAGEMONTH' => 'Общий срок предпринимательства/трудового стажа (мес.)',
   'LBL_ORGWORKSTAGEYEARS' => 'Общий срок предпринимательства/трудового стажа (лет)',
+  'LBL_EARNMETHOD' => 'Способ получения доходов',
 );

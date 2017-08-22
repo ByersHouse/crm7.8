@@ -331,6 +331,16 @@ array (
             'label' => 'LBL_ORGWORKSTAGEMONTH',
           ),
         ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'org_earn_method',
+            'studio' => 'visible',
+            'label' => 'LBL_EARNMETHOD',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel7' => 
       array (
