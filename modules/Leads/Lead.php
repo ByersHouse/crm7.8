@@ -182,7 +182,8 @@ class Lead extends Person {
         var $yearissuetrans4;
         var $trans3_manufacturer;
         var $trans4_manufacturer;
-        
+        var $model_trans3;
+        var $model_trans4;
         
         
 	var $table_name = "leads";

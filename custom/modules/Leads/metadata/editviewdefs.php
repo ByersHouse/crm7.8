@@ -350,6 +350,19 @@ array (
             'label' => 'LBL_TRANS4MANUFACT',
           ),
         ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'model_trans3',
+            'label' => 'LBL_MODEL_TRANS3',
+          ),
+          1 => 
+          array (
+            'name' => 'model_trans4',
+            'label' => 'LBL_MODEL_TRANS4',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (

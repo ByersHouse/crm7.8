@@ -1040,7 +1040,7 @@ $dictionary['Lead']['fields']['trans2_manufacturer'] = array (
       'dependency' => false,
 );
 
-/**/
+
 $dictionary['Lead']['fields']['trans3_manufacturer'] = array (
       'required' => false,
       'name' => 'trans3_manufacturer',
@@ -1089,7 +1089,7 @@ $dictionary['Lead']['fields']['trans4_manufacturer'] = array (
       'dependency' => false,
 );
 
-/**/
+
 
 $dictionary['Lead']['fields']['model_trans1'] = array (
       'required' => false,
@@ -1133,7 +1133,52 @@ $dictionary['Lead']['fields']['model_trans2'] = array (
       'size' => '20',
     );
 
+/**/
 
+$dictionary['Lead']['fields']['model_trans3'] = array (
+      'required' => false,
+      'name' => 'model_trans3',
+      'vname' => 'LBL_MODEL_TRANS3',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Модель транспорта 3',
+      'help' => 'Модель транспорта 3',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '50',
+      'size' => '20',
+    );
+
+$dictionary['Lead']['fields']['model_trans4'] = array (
+      'required' => false,
+      'name' => 'model_trans4',
+      'vname' => 'LBL_MODEL_TRANS4',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Модель транспорта 4',
+      'help' => 'Модель транспорта 4',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '50',
+      'size' => '20',
+    );
+
+
+/**/
 
 
 $dictionary['Lead']['fields']['volume_trans1'] = array (
