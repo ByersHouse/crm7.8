@@ -253,9 +253,18 @@ array (
         array (
           0 => 
           array (
+            'name' => 'org_owner',
+            'label' => 'LBL_ORGOWNER',
+          ),
+          1 => 
+          array (
             'name' => 'orgname',
             'label' => 'LBL_ORGNAME',
           ),
+        ),
+        1 => 
+        array (
+          0 => '',
           1 => 
           array (
             'name' => 'org_legal_form',
@@ -263,7 +272,7 @@ array (
             'label' => 'LBL_ORGLEGALFORM',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -278,7 +287,7 @@ array (
             'label' => 'LBL_ORGSPHERE',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -292,7 +301,7 @@ array (
             'label' => 'LBL_ORGSPECIALIZATION',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (

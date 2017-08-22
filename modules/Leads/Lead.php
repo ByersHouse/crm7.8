@@ -198,6 +198,7 @@ class Lead extends Person {
         var $zalog_trans2;
         var $zalog_trans3;
         var $zalog_trans4;
+        var $org_owner;
         var $orgname;
         var $orglegalform;
         var $org_size;
@@ -205,6 +206,7 @@ class Lead extends Person {
         var $org_position;
         var $org_specialization;
         var $orgwork_date_start;
+        
         
         
         

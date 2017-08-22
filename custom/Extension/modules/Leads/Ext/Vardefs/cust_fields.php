@@ -1711,3 +1711,25 @@ $dictionary['Lead']['fields']['orgwork_date_start'] = array (
       'size' => '20',
       'enable_range_search' => false,
     );
+
+$dictionary['Lead']['fields']['org_owner'] = array (
+      'required' => false,
+      'name' => 'org_owner',
+      'vname' => 'LBL_ORGOWNER',
+      'type' => 'bool',
+      'massupdate' => 0,
+      'default' => '0',
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '255',
+      'size' => '20',
+    );
