@@ -682,3 +682,55 @@ $dictionary['Lead']['fields']['srok_vladenya_nedvizh'] = array (
       'len' => '255',
       'size' => '20',
     );
+
+
+
+
+$dictionary['Lead']['fields']['transport_owner1'] = array (
+      'required' => false,
+      'name' => 'transport_owner1',
+      'vname' => 'LBL_TRANSOWNER1',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_transowner_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
+$dictionary['Lead']['fields']['how_buytransport1'] = array (
+      'required' => false,
+      'name' => 'how_buytransport1',
+      'vname' => 'LBL_HOWBUYTRANS1',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_buymode_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);

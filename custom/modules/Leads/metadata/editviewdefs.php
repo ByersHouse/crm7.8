@@ -43,6 +43,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL6' => 
         array (
           'newTab' => true,
@@ -195,6 +200,29 @@ array (
         11 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'transport_owner1',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANSOWNER1',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'how_buytransport1',
+            'studio' => 'visible',
+            'label' => 'LBL_HOWBUYTRANS1',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel6' => 
