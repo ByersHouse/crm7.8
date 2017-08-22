@@ -174,6 +174,9 @@ class Lead extends Person {
         var $model_trans2;
         var $volume_trans1;
         var $volume_trans2;
+        var $transport_owner3;
+        var $transport_owner4;
+        
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

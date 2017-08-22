@@ -333,6 +333,25 @@ array (
             'label' => 'LBL_VOLUME_TRANS2',
           ),
         ),
+        6 => 
+        array (
+          0 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'transport_owner3',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANSOWNER3',
+          ),
+          1 => 
+          array (
+            'name' => 'transport_owner4',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANSOWNER4',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (

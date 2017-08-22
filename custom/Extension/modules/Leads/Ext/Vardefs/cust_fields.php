@@ -733,7 +733,59 @@ $dictionary['Lead']['fields']['transport_owner2'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+/**/
 
+$dictionary['Lead']['fields']['transport_owner3'] = array (
+      'required' => false,
+      'name' => 'transport_owner3',
+      'vname' => 'LBL_TRANSOWNER3',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_transowner_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['transport_owner4'] = array (
+      'required' => false,
+      'name' => 'transport_owner4',
+      'vname' => 'LBL_TRANSOWNER4',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_transowner_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
+
+/**/
 
 
 
@@ -927,7 +979,7 @@ $dictionary['Lead']['fields']['model_trans2'] = array (
       'size' => '20',
     );
 
-/**/
+
 
 
 $dictionary['Lead']['fields']['volume_trans1'] = array (
