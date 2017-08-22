@@ -164,7 +164,8 @@ class Lead extends Person {
         var $srok_vladenya_nedvizh;
         var $transport_owner;
         var $how_buytransport1;
-        
+        var $yearissuetrans1;
+        var $trans1_manufacturer;
         
         
         

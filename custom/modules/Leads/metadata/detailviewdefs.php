@@ -269,6 +269,25 @@ array (
           ),
           1 => '',
         ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'yearissuetrans1',
+            'label' => 'LBL_YEARISSUETR1',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'trans1_manufacturer',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANS1MANUFACT',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel6' => 
       array (
