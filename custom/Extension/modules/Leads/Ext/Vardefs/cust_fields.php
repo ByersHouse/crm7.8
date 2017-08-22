@@ -838,7 +838,7 @@ $dictionary['Lead']['fields']['how_buytransport2'] = array (
       'dependency' => false,
 );
 
-/**/
+
 
 $dictionary['Lead']['fields']['how_buytransport3'] = array (
       'required' => false,
@@ -890,7 +890,7 @@ $dictionary['Lead']['fields']['how_buytransport4'] = array (
 );
 
 
-/**/
+
 
 
 $dictionary['Lead']['fields']['yearissuetrans1'] = array (
@@ -937,6 +937,60 @@ $dictionary['Lead']['fields']['yearissuetrans2'] = array (
       'len' => '4',
       'size' => '20',
     );
+
+
+/**/
+
+$dictionary['Lead']['fields']['yearissuetrans3'] = array (
+      'required' => false,
+      'name' => 'yearissuetrans3',
+      'vname' => 'LBL_YEARISSUETR3',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Год выпуска транспорта 3',
+      'help' => 'Год выпуска транспорта 3',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '20',
+    );
+
+
+
+
+$dictionary['Lead']['fields']['yearissuetrans4'] = array (
+      'required' => false,
+      'name' => 'yearissuetrans4',
+      'vname' => 'LBL_YEARISSUETR4',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Год выпуска транспорта 4',
+      'help' => 'Год выпуска транспорта 4',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '20',
+    );
+
+
+
+/**/
+
+
 
 $dictionary['Lead']['fields']['trans1_manufacturer'] = array (
       'required' => false,

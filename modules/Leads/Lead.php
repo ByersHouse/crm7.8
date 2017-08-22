@@ -178,7 +178,8 @@ class Lead extends Person {
         var $transport_owner4;
         var $how_buytransport3;
         var $how_buytransport4;
-        
+        var $yearissuetrans3;
+        var $yearissuetrans4;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

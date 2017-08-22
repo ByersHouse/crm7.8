@@ -367,6 +367,19 @@ array (
             'label' => 'LBL_HOWBUYTRANS4',
           ),
         ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'yearissuetrans3',
+            'label' => 'LBL_YEARISSUETR3',
+          ),
+          1 => 
+          array (
+            'name' => 'yearissuetrans4',
+            'label' => 'LBL_YEARISSUETR4',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (
