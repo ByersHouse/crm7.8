@@ -309,13 +309,26 @@ array (
         array (
           0 => 
           array (
-            'name' => 'org_work_months',
-            'label' => 'LBL_ORGWORKMONTH',
+            'name' => 'org_work_years',
+            'label' => 'LBL_ORGWORKYEARS',
           ),
           1 => 
           array (
-            'name' => 'org_work_years',
-            'label' => 'LBL_ORGWORKYEARS',
+            'name' => 'org_work_months',
+            'label' => 'LBL_ORGWORKMONTH',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'org_workstage_years',
+            'label' => 'LBL_ORGWORKSTAGEYEARS',
+          ),
+          1 => 
+          array (
+            'name' => 'org_workstage_months',
+            'label' => 'LBL_ORGWORKSTAGEMONTH',
           ),
         ),
       ),

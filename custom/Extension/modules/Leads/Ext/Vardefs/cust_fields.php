@@ -1775,3 +1775,46 @@ $dictionary['Lead']['fields']['org_work_years']=array (
       'len' => '4',
       'size' => '5',
 );
+
+
+$dictionary['Lead']['fields']['org_workstage_months']=array (
+      'required' => false,
+      'name' => 'org_workstage_months',
+      'vname' => 'LBL_ORGWORKSTAGEMONTH',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Общий срок предпринимательства/трудового стажа (мес.)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '2',
+      'size' => '5',
+);
+
+$dictionary['Lead']['fields']['org_workstage_years']=array (
+      'required' => false,
+      'name' => 'org_workstage_years',
+      'vname' => 'LBL_ORGWORKSTAGEYEARS',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Общий срок предпринимательства/трудового стажа (лет)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '',
+      'size' => '5',
+);
