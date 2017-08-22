@@ -1689,3 +1689,25 @@ $dictionary['Lead']['fields']['org_specialization']=array (
       'len' => '255',
       'size' => '20',
 );
+
+
+$dictionary['Lead']['fields']['orgwork_date_start'] = array (
+      'required' => false,
+      'name' => 'orgwork_date_start',
+      'vname' => 'LBL_ORGDATESTART',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Дата создания организации/предприятии и/или дата приема на работу (мес, год)',
+      'help' => 'Дата создания организации/предприятии и/или дата приема на работу (мес, год)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );

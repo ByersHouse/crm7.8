@@ -247,6 +247,15 @@ array (
             'label' => 'LBL_ORGSPECIALIZATION',
           ),
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'orgwork_date_start',
+            'label' => 'LBL_ORGDATESTART',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel7' => 
       array (
