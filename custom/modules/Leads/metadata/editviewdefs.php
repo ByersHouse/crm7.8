@@ -211,7 +211,12 @@ array (
             'name' => 'orgname',
             'label' => 'LBL_ORGNAME',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'org_legal_form',
+            'studio' => 'visible',
+            'label' => 'LBL_ORGLEGALFORM',
+          ),
         ),
         1 => 
         array (
