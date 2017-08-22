@@ -314,7 +314,11 @@ array (
             'name' => 'model_trans1',
             'label' => 'LBL_MODEL_TRANS1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'model_trans2',
+            'label' => 'LBL_MODEL_TRANS2',
+          ),
         ),
       ),
       'lbl_editview_panel6' => 

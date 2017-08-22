@@ -905,3 +905,24 @@ $dictionary['Lead']['fields']['model_trans1'] = array (
       'len' => '50',
       'size' => '20',
     );
+
+$dictionary['Lead']['fields']['model_trans2'] = array (
+      'required' => false,
+      'name' => 'model_trans2',
+      'vname' => 'LBL_MODEL_TRANS2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Модель транспорта 2',
+      'help' => 'Модель транспорта 2',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => true,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '50',
+      'size' => '20',
+    );
