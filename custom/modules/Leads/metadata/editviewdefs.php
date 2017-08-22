@@ -275,6 +275,19 @@ array (
             'label' => 'LBL_MODEL_TRANS2',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'volume_trans1',
+            'label' => 'LBL_VOLUME_TRANS1',
+          ),
+          1 => 
+          array (
+            'name' => 'volume_trans2',
+            'label' => 'LBL_VOLUME_TRANS2',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (

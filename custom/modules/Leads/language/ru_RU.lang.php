@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-22 11:09:15
+// created: 2017-08-22 11:17:53
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -47,4 +47,6 @@ $mod_strings = array (
   'LBL_YEARISSUETR2' => 'Год выпуска транспорта 2',
   'LBL_TRANS2MANUFACT' => 'Марка транспорта 2',
   'LBL_MODEL_TRANS2' => 'Модель транспорта 2',
+  'LBL_VOLUME_TRANS1' => 'Обьем двигателя 1',
+  'LBL_VOLUME_TRANS2' => 'Обьем двигателя 2',
 );
