@@ -335,6 +335,21 @@ array (
             'label' => 'LBL_YEARISSUETR4',
           ),
         ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'trans3_manufacturer',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANS3MANUFACT',
+          ),
+          1 => 
+          array (
+            'name' => 'trans4_manufacturer',
+            'studio' => 'visible',
+            'label' => 'LBL_TRANS4MANUFACT',
+          ),
+        ),
       ),
       'lbl_editview_panel6' => 
       array (

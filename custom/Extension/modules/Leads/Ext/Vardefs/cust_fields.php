@@ -939,7 +939,7 @@ $dictionary['Lead']['fields']['yearissuetrans2'] = array (
     );
 
 
-/**/
+
 
 $dictionary['Lead']['fields']['yearissuetrans3'] = array (
       'required' => false,
@@ -988,7 +988,7 @@ $dictionary['Lead']['fields']['yearissuetrans4'] = array (
 
 
 
-/**/
+
 
 
 
@@ -1040,7 +1040,56 @@ $dictionary['Lead']['fields']['trans2_manufacturer'] = array (
       'dependency' => false,
 );
 
+/**/
+$dictionary['Lead']['fields']['trans3_manufacturer'] = array (
+      'required' => false,
+      'name' => 'trans3_manufacturer',
+      'vname' => 'LBL_TRANS3MANUFACT',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_manufacturer_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
 
+$dictionary['Lead']['fields']['trans4_manufacturer'] = array (
+      'required' => false,
+      'name' => 'trans4_manufacturer',
+      'vname' => 'LBL_TRANS4MANUFACT',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_manufacturer_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+/**/
 
 $dictionary['Lead']['fields']['model_trans1'] = array (
       'required' => false,
