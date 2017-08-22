@@ -206,6 +206,8 @@ class Lead extends Person {
         var $org_position;
         var $org_specialization;
         var $orgwork_date_start;
+        var $org_work_months;
+        var $org_work_years;
         
         
         

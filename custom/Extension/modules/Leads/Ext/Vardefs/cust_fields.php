@@ -1732,4 +1732,46 @@ $dictionary['Lead']['fields']['org_owner'] = array (
       'merge_filter' => 'disabled',
       'len' => '255',
       'size' => '20',
-    );
+);
+
+$dictionary['Lead']['fields']['org_work_months']=array (
+      'required' => false,
+      'name' => 'org_work_months',
+      'vname' => 'LBL_ORGWORKMONTH',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Срок деятельности в данной организации/предприятии (мес.)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '2',
+      'size' => '5',
+);
+
+$dictionary['Lead']['fields']['org_work_years']=array (
+      'required' => false,
+      'name' => 'org_work_years',
+      'vname' => 'LBL_ORGWORKYEARS',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'Срок деятельности в данной организации/предприятии (лет)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);

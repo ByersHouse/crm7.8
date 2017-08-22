@@ -219,7 +219,11 @@ array (
         ),
         1 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'orgwork_date_start',
+            'label' => 'LBL_ORGDATESTART',
+          ),
           1 => 
           array (
             'name' => 'org_legal_form',
@@ -260,10 +264,14 @@ array (
         array (
           0 => 
           array (
-            'name' => 'orgwork_date_start',
-            'label' => 'LBL_ORGDATESTART',
+            'name' => 'org_work_months',
+            'label' => 'LBL_ORGWORKMONTH',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'org_work_years',
+            'label' => 'LBL_ORGWORKYEARS',
+          ),
         ),
       ),
       'lbl_editview_panel7' => 
