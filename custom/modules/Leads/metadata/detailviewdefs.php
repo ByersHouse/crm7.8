@@ -346,6 +346,15 @@ array (
             'label' => 'LBL_ORGEARNLEVEL',
           ),
         ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'org_debentures',
+            'label' => 'LBL_DEBENTURES',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel7' => 
       array (
