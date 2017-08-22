@@ -162,13 +162,13 @@ class Lead extends Person {
         var $realtyby;
         var $realty_vid;
         var $srok_vladenya_nedvizh;
-        var $transport_owner;
+        var $transport_owner1;
         var $how_buytransport1;
         var $yearissuetrans1;
         var $trans1_manufacturer;
         var $model_trans1;
-        
-        
+        var $transport_owner2;
+        var $how_buytransport2;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

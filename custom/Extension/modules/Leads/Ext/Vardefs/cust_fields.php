@@ -710,6 +710,32 @@ $dictionary['Lead']['fields']['transport_owner1'] = array (
       'dependency' => false,
 );
 
+$dictionary['Lead']['fields']['transport_owner2'] = array (
+      'required' => false,
+      'name' => 'transport_owner2',
+      'vname' => 'LBL_TRANSOWNER2',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_transowner_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
+
 
 $dictionary['Lead']['fields']['how_buytransport1'] = array (
       'required' => false,
@@ -734,6 +760,34 @@ $dictionary['Lead']['fields']['how_buytransport1'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+
+$dictionary['Lead']['fields']['how_buytransport2'] = array (
+      'required' => false,
+      'name' => 'how_buytransport2',
+      'vname' => 'LBL_HOWBUYTRANS2',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 100,
+      'size' => '20',
+      'options' => 'lead_buymode_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);
+
+
+
 
 
 $dictionary['Lead']['fields']['yearissuetrans1'] = array (
