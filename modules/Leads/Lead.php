@@ -241,6 +241,7 @@ class Lead extends Person {
         var $phone_addr_registr;
         var $phone_addr_fact;
         var $phone_contact_face;
+        var $account_num;
         
         
 	var $table_name = "leads";

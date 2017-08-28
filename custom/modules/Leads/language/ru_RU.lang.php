@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 15:44:24
+// created: 2017-08-28 15:55:41
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -116,4 +116,6 @@ $mod_strings = array (
   'LBL_PHONE_ADDR_REGISTR' => 'Номер телефона по адресу регистрации',
   'LBL_PHONE_ADDRFACT' => 'Номер телефона по фактическому адресу проживания',
   'LBL_PHONE_CONTACTFACE' => 'Номера мобильного телефона лица для контакта',
+  'LBL_EDITVIEW_PANEL8' => 'Банк',
+  'LBL_ACCOUNTNUM' => 'Номер счета',
 );

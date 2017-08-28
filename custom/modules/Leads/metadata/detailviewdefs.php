@@ -85,6 +85,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL8' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => true,
@@ -239,6 +244,18 @@ array (
         10 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel8' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_num',
+            'label' => 'LBL_ACCOUNTNUM',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel1' => 

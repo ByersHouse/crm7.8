@@ -2538,3 +2538,25 @@ $dictionary['Lead']['fields']['phone_contact_face'] = array (
       'size' => '20',
       'dbType' => 'varchar',
 );
+
+
+$dictionary['Lead']['fields']['account_num'] = array (
+      'required' => false,
+      'name' => 'account_num',
+      'vname' => 'LBL_ACCOUNTNUM',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Скайп',
+      'help' => 'Скайп',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);
