@@ -243,6 +243,7 @@ class Lead extends Person {
         var $phone_contact_face;
         var $account_num;
         var $bank_name;
+        var $bank_mfo;
         
         
 	var $table_name = "leads";

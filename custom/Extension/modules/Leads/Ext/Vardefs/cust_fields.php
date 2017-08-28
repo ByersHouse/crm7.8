@@ -2582,3 +2582,24 @@ $dictionary['Lead']['fields']['bank_name'] = array (
       'len' => '40',
       'size' => '20',
 );
+
+$dictionary['Lead']['fields']['bank_mfo'] = array (
+      'required' => false,
+      'name' => 'bank_mfo',
+      'vname' => 'LBL_BANKMFO',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);

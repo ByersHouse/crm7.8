@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 16:01:40
+// created: 2017-08-28 16:05:28
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -119,4 +119,5 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL8' => 'Банк',
   'LBL_ACCOUNTNUM' => 'Номер счета',
   'LBL_BANKNAME' => 'Банк',
+  'LBL_BANKMFO' => 'МФО',
 );

@@ -252,14 +252,23 @@ array (
         array (
           0 => 
           array (
-            'name' => 'account_num',
-            'label' => 'LBL_ACCOUNTNUM',
-          ),
-          1 => 
-          array (
             'name' => 'bank_name',
             'label' => 'LBL_BANKNAME',
           ),
+          1 => 
+          array (
+            'name' => 'bank_mfo',
+            'label' => 'LBL_BANKMFO',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_num',
+            'label' => 'LBL_ACCOUNTNUM',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel1' => 
