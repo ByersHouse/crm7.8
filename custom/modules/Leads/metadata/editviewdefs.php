@@ -315,6 +315,16 @@ array (
             'label' => 'LBL_DEBETTYPE',
           ),
         ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'debet_type_level',
+            'studio' => 'visible',
+            'label' => 'LBL_DEBETTYPELEVEL',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel7' => 
       array (
