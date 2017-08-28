@@ -2026,3 +2026,47 @@ $dictionary['Lead']['fields']['flat1_dateregister'] = array (
       'size' => '20',
       'enable_range_search' => false,
     );
+
+
+$dictionary['Lead']['fields']['regist_term_months_flat1']=array (
+      'required' => false,
+      'name' => 'regist_term_months_flat1',
+      'vname' => 'LBL_REGTERMMONTHSFL1',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Срок регистрации по данному адресу(мес.)',
+      'help' => 'Срок регистрации по данному адресу(мес.)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);
+
+
+$dictionary['Lead']['fields']['regist_term_years_flat1']=array (
+      'required' => false,
+      'name' => 'regist_term_years_flat1',
+      'vname' => 'LBL_REGTERMНYEARSFL1',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Срок регистрации по данному адресу(лет)',
+      'help' => 'Срок регистрации по данному адресу(лет)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);

@@ -294,6 +294,24 @@ array (
           ),
           1 => '',
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'regist_term_months_flat1',
+            'label' => 'LBL_REGTERMMONTHSFL1',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'regist_term_years_flat1',
+            'label' => 'LBL_REGTERMНYEARSFL1',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (
