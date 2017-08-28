@@ -301,11 +301,7 @@ array (
         ),
         8 => 
         array (
-          0 => 
-          array (
-            'name' => 'phone_addr_registr',
-            'label' => 'LBL_PHONE_ADDR_REGISTR',
-          ),
+          0 => '',
           1 => 
           array (
             'name' => 'phone_addr_fact',
@@ -319,7 +315,11 @@ array (
             'name' => 'work_address_state',
             'label' => 'LBL_WORK_ADDRESS_STATE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'phone_addr_registr',
+            'label' => 'LBL_PHONE_ADDR_REGISTR',
+          ),
         ),
         10 => 
         array (
@@ -328,7 +328,11 @@ array (
             'name' => 'work_address_index',
             'label' => 'LBL_WORK_ADDRESS_INDEX',
           ),
-          1 => 'email1',
+          1 => 
+          array (
+            'name' => 'phone_contact_face',
+            'label' => 'LBL_PHONE_CONTACTFACE',
+          ),
         ),
         11 => 
         array (
@@ -358,6 +362,11 @@ array (
         ),
         13 => 
         array (
+          0 => '',
+          1 => 'email1',
+        ),
+        14 => 
+        array (
           0 => 
           array (
             'name' => 'facebook',
@@ -369,7 +378,7 @@ array (
             'label' => 'LBL_VK',
           ),
         ),
-        14 => 
+        15 => 
         array (
           0 => 
           array (
@@ -382,7 +391,7 @@ array (
             'label' => 'LBL_GOOGLEPLUS',
           ),
         ),
-        15 => 
+        16 => 
         array (
           0 => 
           array (

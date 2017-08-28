@@ -2515,3 +2515,26 @@ $dictionary['Lead']['fields']['phone_addr_fact'] = array (
       'size' => '20',
       'dbType' => 'varchar',
 );
+
+
+$dictionary['Lead']['fields']['phone_contact_face'] = array (
+      'required' => false,
+      'name' => 'phone_contact_face',
+      'vname' => 'LBL_PHONE_CONTACTFACE',
+      'type' => 'phone',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Номер телефона лица для контакта',
+      'help' => 'Номер телефона лица для контакта',
+      'importable' => 'true',
+      'duplicate_merge' => 'enabled',
+      'duplicate_merge_dom_value' => '1',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+      'dbType' => 'varchar',
+);
