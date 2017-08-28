@@ -1,9 +1,9 @@
 <?php
-// created: 2017-08-28 12:42:47
+// created: 2017-08-28 12:58:20
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
-  'LBL_EDITVIEW_PANEL1' => 'Адресная',
+  'LBL_EDITVIEW_PANEL1' => 'Контакты',
   'LBL_EDITVIEW_PANEL2' => 'Служебная ',
   'LBL_RESIDENT' => 'Резидент /Не резидент Украины',
   'LBL_INN' => 'ИНН',
@@ -105,4 +105,6 @@ $mod_strings = array (
   'LBL_WORK_ADDRESS_COUNTRY' => 'Адрес места работы Страна',
   'LBL_WORK_ADDRESS_INDEX' => 'Адрес места работы Индекс',
   'LBL_WORKROOMNUM' => 'Номер помещения в доме',
+  'LBL_SKYPE' => 'Скайп',
+  'LBL_VIBER' => 'Вайбер',
 );

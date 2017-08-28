@@ -230,6 +230,8 @@ class Lead extends Person {
         var $work_address_index;
         var $work_address_country;
         var $work_room_number;
+        var $skype_account;
+        var $viber;
         
         
 	var $table_name = "leads";

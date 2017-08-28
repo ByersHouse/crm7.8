@@ -2272,3 +2272,47 @@ $dictionary['Lead']['fields']['work_room_number']=array (
       'len' => '4',
       'size' => '5',
 );
+
+
+$dictionary['Lead']['fields']['skype_account'] = array (
+      'required' => false,
+      'name' => 'skype_account',
+      'vname' => 'LBL_SKYPE',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Скайп',
+      'help' => 'Скайп',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);
+
+
+$dictionary['Lead']['fields']['viber'] = array (
+      'required' => false,
+      'name' => 'viber',
+      'vname' => 'LBL_VIBER',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Вайбер',
+      'help' => 'Вайбер',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);

@@ -106,7 +106,6 @@ array (
         1 => 
         array (
           0 => 'last_name',
-          1 => 'phone_work',
         ),
         2 => 
         array (
@@ -116,7 +115,6 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
           ),
-          1 => 'phone_mobile',
         ),
         3 => 
         array (
@@ -195,7 +193,8 @@ array (
         ),
         10 => 
         array (
-          0 => 'email1',
+          0 => '',
+          1 => '',
         ),
         11 => 
         array (
@@ -294,7 +293,7 @@ array (
             'name' => 'work_address_street',
             'label' => 'LBL_WORK_ADDRESS_STREET',
           ),
-          1 => '',
+          1 => 'phone_work',
         ),
         7 => 
         array (
@@ -303,7 +302,7 @@ array (
             'name' => 'work_address_city',
             'label' => 'LBL_WORK_ADDRESS_CITY',
           ),
-          1 => '',
+          1 => 'phone_mobile',
         ),
         8 => 
         array (
@@ -321,7 +320,7 @@ array (
             'name' => 'work_address_index',
             'label' => 'LBL_WORK_ADDRESS_INDEX',
           ),
-          1 => '',
+          1 => 'email1',
         ),
         10 => 
         array (
@@ -330,7 +329,11 @@ array (
             'name' => 'work_address_country',
             'label' => 'LBL_WORK_ADDRESS_COUNTRY',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'skype_account',
+            'label' => 'LBL_SKYPE',
+          ),
         ),
         11 => 
         array (
@@ -339,7 +342,11 @@ array (
             'name' => 'work_room_number',
             'label' => 'LBL_WORKROOMNUM',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'viber',
+            'label' => 'LBL_VIBER',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
