@@ -252,23 +252,37 @@ array (
         array (
           0 => 
           array (
-            'name' => 'bank_name',
-            'label' => 'LBL_BANKNAME',
+            'name' => 'account_num',
+            'label' => 'LBL_ACCOUNTNUM',
           ),
-          1 => 
-          array (
-            'name' => 'bank_mfo',
-            'label' => 'LBL_BANKMFO',
-          ),
+          1 => '',
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'account_num',
-            'label' => 'LBL_ACCOUNTNUM',
+            'name' => 'bank_name',
+            'label' => 'LBL_BANKNAME',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'bank_emitent_name',
+            'studio' => 'visible',
+            'label' => 'LBL_BANKEMITENTNAME',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_mfo',
+            'label' => 'LBL_BANKMFO',
+          ),
+          1 => 
+          array (
+            'name' => 'bank_emitent_mfo',
+            'label' => 'LBL_BANKEMITENTMFO',
+          ),
         ),
       ),
       'lbl_editview_panel1' => 
