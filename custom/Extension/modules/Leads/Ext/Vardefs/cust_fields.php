@@ -2316,3 +2316,46 @@ $dictionary['Lead']['fields']['viber'] = array (
       'len' => '40',
       'size' => '20',
 );
+
+
+$dictionary['Lead']['fields']['facebook'] = array (
+      'required' => false,
+      'name' => 'facebook',
+      'vname' => 'LBL_FACEBOOK',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть Facebook',
+      'help' => 'ссылка на социальную сеть Facebook',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+);
+
+$dictionary['Lead']['fields']['vk'] = array (
+      'required' => false,
+      'name' => 'vk',
+      'vname' => 'LBL_VK',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть вКонтакте',
+      'help' => 'ссылка на социальную сеть вКонтакте',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+);

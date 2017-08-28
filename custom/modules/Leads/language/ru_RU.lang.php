@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 12:58:20
+// created: 2017-08-28 14:13:08
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -107,4 +107,6 @@ $mod_strings = array (
   'LBL_WORKROOMNUM' => 'Номер помещения в доме',
   'LBL_SKYPE' => 'Скайп',
   'LBL_VIBER' => 'Вайбер',
+  'LBL_VK' => 'Ссылка на профиль вКонтакте',
+  'LBL_FACEBOOK' => 'Ссылка на профиль Facebook',
 );

@@ -232,6 +232,8 @@ class Lead extends Person {
         var $work_room_number;
         var $skype_account;
         var $viber;
+        var $facebook;
+        var $vk;
         
         
 	var $table_name = "leads";

@@ -238,11 +238,6 @@ array (
         ),
         10 => 
         array (
-          0 => '',
-          1 => '',
-        ),
-        11 => 
-        array (
           0 => 'description',
         ),
       ),
@@ -384,6 +379,19 @@ array (
           array (
             'name' => 'viber',
             'label' => 'LBL_VIBER',
+          ),
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'facebook',
+            'label' => 'LBL_FACEBOOK',
+          ),
+          1 => 
+          array (
+            'name' => 'vk',
+            'label' => 'LBL_VK',
           ),
         ),
       ),
