@@ -282,6 +282,29 @@ array (
             'label' => 'LBL_REGTERMНYEARSFL2',
           ),
         ),
+        5 => 
+        array (
+          0 => '',
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_address_street',
+            'label' => 'LBL_WORK_ADDRESS_STREET',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_address_city',
+            'label' => 'LBL_WORK_ADDRESS_CITY',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (

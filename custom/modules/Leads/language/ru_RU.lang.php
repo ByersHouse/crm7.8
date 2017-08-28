@@ -1,10 +1,10 @@
 <?php
-// created: 2017-08-28 11:03:36
+// created: 2017-08-28 11:36:32
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
-  'LBL_EDITVIEW_PANEL1' => 'Адресная информация',
-  'LBL_EDITVIEW_PANEL2' => 'Служебная информация',
+  'LBL_EDITVIEW_PANEL1' => 'Адресная',
+  'LBL_EDITVIEW_PANEL2' => 'Служебная ',
   'LBL_RESIDENT' => 'Резидент /Не резидент Украины',
   'LBL_INN' => 'ИНН',
   'LBL_DATE_BIRTHDAY' => 'Дата рождения',
@@ -12,7 +12,7 @@ $mod_strings = array (
   'LBL_STATUS_LIVEPLACE' => 'Статус места проживания',
   'LBL_EDUCATION' => 'Образование',
   'LBL_UKRPASPORT_NOM' => 'Серия Номер паспорта Украины',
-  'LBL_EDITVIEW_PANEL3' => 'Паспортная информация',
+  'LBL_EDITVIEW_PANEL3' => 'Паспортная ',
   'LBL_UKRPASP_KEMVIDAN' => 'Украинский паспорт кем выдан',
   'LBL_UKRPASP_DATAVIDACHY' => 'Дата выдачи Украинского паспорта',
   'LBL_PLACEBIRTH' => 'Место рождения',
@@ -29,7 +29,7 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL4' => 'Проблемы с законом',
   'LBL_PROBLEMLAW' => 'Проблемы с законом',
   'LBL_JUDDED_BY' => 'Судимость по статье',
-  'LBL_EDITVIEW_PANEL5' => 'Семейная информация',
+  'LBL_EDITVIEW_PANEL5' => 'Семейная ',
   'LBL_FAMILYSTATUS' => 'Семейное положение',
   'LBL_REALTY' => 'Наличие недвижимого имущества',
   'LBL_EDITVIEW_PANEL6' => 'Недвижимость',
@@ -99,4 +99,6 @@ $mod_strings = array (
   'LBL_DATELIVESTART' => 'Дата начала проживания',
   'LBL_REGTERMMONTHSFL2' => 'Срок проживания мес',
   'LBL_REGTERMНYEARSFL2' => 'Срок проживания лет',
+  'LBL_WORK_ADDRESS_STREET' => 'Адрес места работы - улица',
+  'LBL_WORK_ADDRESS_CITY' => 'Адрес места работы Город',
 );

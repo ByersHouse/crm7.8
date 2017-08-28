@@ -2117,7 +2117,7 @@ $dictionary['Lead']['fields']['regist_term_months_flat2']=array (
 );
 
 
-$dictionary['Lead']['fields']['regist_term_years_flat2']=array (
+$dictionary['Lead']['fields']['regist_term_years_flat2'] = array (
       'required' => false,
       'name' => 'regist_term_years_flat2',
       'vname' => 'LBL_REGTERMНYEARSFL2',
@@ -2136,4 +2136,50 @@ $dictionary['Lead']['fields']['regist_term_years_flat2']=array (
       'merge_filter' => 'disabled',
       'len' => '4',
       'size' => '5',
+);
+
+
+
+
+$dictionary['Lead']['fields']['work_address_street'] = array (
+      'required' => false,
+      'name' => 'work_address_street',
+      'vname' => 'LBL_WORK_ADDRESS_STREET',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Адрес места работы улица',
+      'help' => 'Адрес места работы улица',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '150',
+      'size' => '20',
+    );
+
+
+$dictionary['Lead']['fields']['work_address_city'] = array (
+      'required' => false,
+      'name' => 'work_address_city',
+      'vname' => 'LBL_WORK_ADDRESS_CITY',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Город',
+      'help' => 'Город',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '150',
+      'size' => '20',
 );
