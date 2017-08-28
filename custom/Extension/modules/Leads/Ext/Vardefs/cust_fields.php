@@ -1939,3 +1939,27 @@ $dictionary['Lead']['fields']['debet_type_level'] = array (
       'studio' => 'visible',
       'dependency' => false,
 );
+
+$dictionary['Lead']['fields']['level_volume'] = array (
+      'required' => false,
+      'name' => 'level_volume',
+      'vname' => 'LBL_LEVELVOLUME',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_levelvolume_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);

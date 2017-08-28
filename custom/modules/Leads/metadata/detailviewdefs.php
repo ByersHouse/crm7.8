@@ -368,7 +368,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DEBETTYPELEVEL',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'level_volume',
+            'studio' => 'visible',
+            'label' => 'LBL_LEVELVOLUME',
+          ),
         ),
       ),
       'lbl_editview_panel7' => 

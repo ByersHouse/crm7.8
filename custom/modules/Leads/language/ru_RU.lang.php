@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 09:31:04
+// created: 2017-08-28 09:39:12
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -90,4 +90,5 @@ $mod_strings = array (
   'LBL_DEBENTURES' => 'Наличие долговых обязательств',
   'LBL_DEBETTYPE' => 'Вид долговых обязательств',
   'LBL_DEBETTYPELEVEL' => 'Уровень обеспечения долговых обязательств',
+  'LBL_LEVELVOLUME' => 'Уровень объема обязательств ',
 );
