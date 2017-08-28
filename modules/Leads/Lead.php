@@ -216,6 +216,8 @@ class Lead extends Person {
         var $debet_type;
         var $debet_type_level;
         var $level_volume;
+        var $room1_number;
+        var $room2_number;
         
         
         

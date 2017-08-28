@@ -43,6 +43,11 @@ array (
           'newTab' => true,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL2' => 
         array (
           'newTab' => true,
@@ -69,11 +74,6 @@ array (
           'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL3' => 
-        array (
-          'newTab' => true,
-          'panelDefault' => 'expanded',
-        ),
-        'LBL_EDITVIEW_PANEL1' => 
         array (
           'newTab' => true,
           'panelDefault' => 'expanded',
@@ -200,6 +200,52 @@ array (
         11 => 
         array (
           0 => 'description',
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'primary_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'primary',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+          1 => 
+          array (
+            'name' => 'alt_address_street',
+            'hideLabel' => true,
+            'type' => 'address',
+            'displayParams' => 
+            array (
+              'key' => 'alt',
+              'copy' => 'primary',
+              'rows' => 2,
+              'cols' => 30,
+              'maxlength' => 150,
+            ),
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'room1_number',
+            'label' => 'LBL_ROOM1NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'room2_number',
+            'label' => 'LBL_ROOM2NUMBER',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
@@ -757,39 +803,6 @@ array (
             'label' => 'LBL_VIDNAZHIT_DATEEND',
           ),
           1 => '',
-        ),
-      ),
-      'lbl_editview_panel1' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'primary_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'primary',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
-            ),
-          ),
-          1 => 
-          array (
-            'name' => 'alt_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'alt',
-              'copy' => 'primary',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
-            ),
-          ),
         ),
       ),
       'LBL_PANEL_ADVANCED' => 

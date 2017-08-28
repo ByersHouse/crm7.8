@@ -1755,7 +1755,7 @@ $dictionary['Lead']['fields']['org_work_months']=array (
       'size' => '5',
 );
 
-$dictionary['Lead']['fields']['org_work_years']=array (
+$dictionary['Lead']['fields']['org_work_years'] = array (
       'required' => false,
       'name' => 'org_work_years',
       'vname' => 'LBL_ORGWORKYEARS',
@@ -1962,4 +1962,46 @@ $dictionary['Lead']['fields']['level_volume'] = array (
       'options' => 'lead_levelvolume_list',
       'studio' => 'visible',
       'dependency' => false,
+);
+
+$dictionary['Lead']['fields']['room1_number']=array (
+      'required' => false,
+      'name' => 'room1_number',
+      'vname' => 'LBL_ROOM1NUMBER',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'номер помещения в доме (квартиры, комнаты и др.))',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);
+
+$dictionary['Lead']['fields']['room2_number']=array (
+      'required' => false,
+      'name' => 'room2_number',
+      'vname' => 'LBL_ROOM2NUMBER',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'номер помещения в доме (квартиры, комнаты и др.))',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
 );
