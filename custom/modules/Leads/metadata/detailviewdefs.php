@@ -255,7 +255,11 @@ array (
             'name' => 'account_num',
             'label' => 'LBL_ACCOUNTNUM',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'bank_name',
+            'label' => 'LBL_BANKNAME',
+          ),
         ),
       ),
       'lbl_editview_panel1' => 
