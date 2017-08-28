@@ -285,6 +285,15 @@ array (
             'label' => 'LBL_ROOM2NUMBER',
           ),
         ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'flat1_dateregister',
+            'label' => 'LBL_DATEREGISTER',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (

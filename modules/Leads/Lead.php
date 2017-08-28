@@ -218,6 +218,7 @@ class Lead extends Person {
         var $level_volume;
         var $room1_number;
         var $room2_number;
+        var $flat1_dateregister;
         
         
         

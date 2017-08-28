@@ -2005,3 +2005,24 @@ $dictionary['Lead']['fields']['room2_number']=array (
       'len' => '4',
       'size' => '5',
 );
+
+$dictionary['Lead']['fields']['flat1_dateregister'] = array (
+      'required' => false,
+      'name' => 'flat1_dateregister',
+      'vname' => 'LBL_DATEREGISTER',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Дата регистрации постоянного места проживания',
+      'help' => 'Дата регистрации постоянного места проживания',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
