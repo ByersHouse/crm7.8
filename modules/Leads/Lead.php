@@ -213,7 +213,7 @@ class Lead extends Person {
         var $org_earn_method;
         var $org_earn_level;
         var $org_debentures;
-        
+        var $debet_type;
         
         
         

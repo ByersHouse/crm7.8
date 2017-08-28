@@ -1890,3 +1890,28 @@ $dictionary['Lead']['fields']['org_debentures'] = array (
       'len' => '255',
       'size' => '20',
 );
+
+
+$dictionary['Lead']['fields']['debet_type'] = array (
+      'required' => false,
+      'name' => 'debet_type',
+      'vname' => 'LBL_DEBETTYPE',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => '',
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => 50,
+      'size' => '20',
+      'options' => 'lead_debettype_list',
+      'studio' => 'visible',
+      'dependency' => false,
+);

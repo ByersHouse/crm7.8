@@ -308,7 +308,12 @@ array (
             'name' => 'org_debentures',
             'label' => 'LBL_DEBENTURES',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'debet_type',
+            'studio' => 'visible',
+            'label' => 'LBL_DEBETTYPE',
+          ),
         ),
       ),
       'lbl_editview_panel7' => 
