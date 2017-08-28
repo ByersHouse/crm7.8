@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 14:55:42
+// created: 2017-08-28 15:36:14
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -113,4 +113,6 @@ $mod_strings = array (
   'LBL_GOOGLEPLUS' => 'Ссылка на профиль Google +',
   'LBL_ODNOKL' => 'Ссылка на профиль Одноклассники',
   'LBL_INSTAGRAM' => 'Ссылка на профиль Instagram',
+  'LBL_PHONE_ADDR_REGISTR' => 'Номер телефона по адресу регистрации',
+  'LBL_PHONE_ADDRFACT' => 'Номер телефона по фактическому адресу проживания',
 );

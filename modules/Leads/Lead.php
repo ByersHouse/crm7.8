@@ -238,6 +238,8 @@ class Lead extends Person {
         var $odnokl;
         var $googleplus;
         var $instagram;
+        var $phone_addr_registr;
+        var $phone_addr_fact;
         
         
 	var $table_name = "leads";
