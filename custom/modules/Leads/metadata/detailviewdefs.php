@@ -255,7 +255,11 @@ array (
             'name' => 'account_num',
             'label' => 'LBL_ACCOUNTNUM',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'card_num',
+            'label' => 'LBL_CARDNUM',
+          ),
         ),
         1 => 
         array (
