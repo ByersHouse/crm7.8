@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 12:33:09
+// created: 2017-08-28 12:42:47
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -104,4 +104,5 @@ $mod_strings = array (
   'LBL_WORK_ADDRESS_STATE' => 'Адрес места работы Область',
   'LBL_WORK_ADDRESS_COUNTRY' => 'Адрес места работы Страна',
   'LBL_WORK_ADDRESS_INDEX' => 'Адрес места работы Индекс',
+  'LBL_WORKROOMNUM' => 'Номер помещения в доме',
 );

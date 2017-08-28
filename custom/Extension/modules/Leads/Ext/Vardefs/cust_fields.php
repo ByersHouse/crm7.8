@@ -2250,3 +2250,25 @@ $dictionary['Lead']['fields']['work_address_country'] = array (
       'len' => '150',
       'size' => '20',
 );
+
+
+$dictionary['Lead']['fields']['work_room_number']=array (
+      'required' => false,
+      'name' => 'work_room_number',
+      'vname' => 'LBL_WORKROOMNUM',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => 'номер помещения в доме (квартиры, комнаты и др.))',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);

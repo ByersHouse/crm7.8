@@ -294,11 +294,7 @@ array (
             'name' => 'work_address_street',
             'label' => 'LBL_WORK_ADDRESS_STREET',
           ),
-          1 => 
-          array (
-            'name' => 'work_address_country',
-            'label' => 'LBL_WORK_ADDRESS_COUNTRY',
-          ),
+          1 => '',
         ),
         7 => 
         array (
@@ -307,11 +303,7 @@ array (
             'name' => 'work_address_city',
             'label' => 'LBL_WORK_ADDRESS_CITY',
           ),
-          1 => 
-          array (
-            'name' => 'work_address_index',
-            'label' => 'LBL_WORK_ADDRESS_INDEX',
-          ),
+          1 => '',
         ),
         8 => 
         array (
@@ -319,6 +311,33 @@ array (
           array (
             'name' => 'work_address_state',
             'label' => 'LBL_WORK_ADDRESS_STATE',
+          ),
+          1 => '',
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_address_index',
+            'label' => 'LBL_WORK_ADDRESS_INDEX',
+          ),
+          1 => '',
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_address_country',
+            'label' => 'LBL_WORK_ADDRESS_COUNTRY',
+          ),
+          1 => '',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_room_number',
+            'label' => 'LBL_WORKROOMNUM',
           ),
           1 => '',
         ),
