@@ -2322,7 +2322,7 @@ $dictionary['Lead']['fields']['facebook'] = array (
       'required' => false,
       'name' => 'facebook',
       'vname' => 'LBL_FACEBOOK',
-      'type' => 'varchar',
+      'type' => 'url',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'ссылка на социальную сеть Facebook',
@@ -2337,13 +2337,16 @@ $dictionary['Lead']['fields']['facebook'] = array (
       'merge_filter' => 'disabled',
       'len' => '100',
       'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
 );
 
 $dictionary['Lead']['fields']['vk'] = array (
       'required' => false,
       'name' => 'vk',
       'vname' => 'LBL_VK',
-      'type' => 'varchar',
+      'type' => 'url',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'ссылка на социальную сеть вКонтакте',
@@ -2358,6 +2361,9 @@ $dictionary['Lead']['fields']['vk'] = array (
       'merge_filter' => 'disabled',
       'len' => '100',
       'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
 );
 
 
@@ -2367,7 +2373,7 @@ $dictionary['Lead']['fields']['twitter'] = array (
       'required' => false,
       'name' => 'twitter',
       'vname' => 'LBL_TWITTER',
-      'type' => 'varchar',
+      'type' => 'url',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'ссылка на социальную сеть Twitter',
@@ -2382,4 +2388,86 @@ $dictionary['Lead']['fields']['twitter'] = array (
       'merge_filter' => 'disabled',
       'len' => '100',
       'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
+);
+
+
+
+
+$dictionary['Lead']['fields']['odnokl'] = array (
+      'required' => false,
+      'name' => 'odnokl',
+      'vname' => 'LBL_ODNOKL',
+      'type' => 'url',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть Одноклассники',
+      'help' => 'ссылка на социальную сеть Одноклассники',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
+);
+
+
+
+
+$dictionary['Lead']['fields']['googleplus'] = array (
+      'required' => false,
+      'name' => 'googleplus',
+      'vname' => 'LBL_GOOGLEPLUS',
+      'type' => 'url',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть Google +',
+      'help' => 'ссылка на социальную сеть Google +',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
+);
+
+
+$dictionary['Lead']['fields']['instagram'] = array (
+      'required' => false,
+      'name' => 'instagram',
+      'vname' => 'LBL_INSTAGRAM',
+      'type' => 'url',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть Instagram',
+      'help' => 'ссылка на социальную сеть Instagram',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+      'dbType' => 'varchar',
+      'gen' => '0',
+      'link_target' => '_blank',
 );

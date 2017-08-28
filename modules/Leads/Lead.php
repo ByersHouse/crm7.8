@@ -235,6 +235,9 @@ class Lead extends Person {
         var $facebook;
         var $vk;
         var $twitter;
+        var $odnokl;
+        var $googleplus;
+        var $instagram;
         
         
 	var $table_name = "leads";

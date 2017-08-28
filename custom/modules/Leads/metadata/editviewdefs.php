@@ -363,7 +363,24 @@ array (
             'name' => 'twitter',
             'label' => 'LBL_TWITTER',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'googleplus',
+            'label' => 'LBL_GOOGLEPLUS',
+          ),
+        ),
+        14 => 
+        array (
+          0 => 
+          array (
+            'name' => 'odnokl',
+            'label' => 'LBL_ODNOKL',
+          ),
+          1 => 
+          array (
+            'name' => 'instagram',
+            'label' => 'LBL_INSTAGRAM',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
