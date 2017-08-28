@@ -2070,3 +2070,70 @@ $dictionary['Lead']['fields']['regist_term_years_flat1']=array (
       'len' => '4',
       'size' => '5',
 );
+
+
+$dictionary['Lead']['fields']['flat2_datelivestart'] = array (
+      'required' => false,
+      'name' => 'flat2_datelivestart',
+      'vname' => 'LBL_DATELIVESTART',
+      'type' => 'date',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Дата начала проживания',
+      'help' => 'Дата начала проживания',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'size' => '20',
+      'enable_range_search' => false,
+    );
+
+
+
+$dictionary['Lead']['fields']['regist_term_months_flat2']=array (
+      'required' => false,
+      'name' => 'regist_term_months_flat2',
+      'vname' => 'LBL_REGTERMMONTHSFL2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Срок проживания(мес.)',
+      'help' => 'Срок проживания(мес.)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);
+
+
+$dictionary['Lead']['fields']['regist_term_years_flat2']=array (
+      'required' => false,
+      'name' => 'regist_term_years_flat2',
+      'vname' => 'LBL_REGTERMНYEARSFL2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Срок проживания (лет)',
+      'help' => 'Срок проживания (лет)',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '4',
+      'size' => '5',
+);

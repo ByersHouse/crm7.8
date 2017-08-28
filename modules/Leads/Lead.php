@@ -221,7 +221,9 @@ class Lead extends Person {
         var $flat1_dateregister;
         var $regist_term_months_flat1;
         var $regist_term_years_flat1;
-        
+        var $flat2_datelivestart;
+        var $regist_term_months_flat2;
+        var $regist_term_years_flat2;
         
         
 	var $table_name = "leads";

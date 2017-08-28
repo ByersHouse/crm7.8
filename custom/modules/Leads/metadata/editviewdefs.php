@@ -263,7 +263,11 @@ array (
             'name' => 'regist_term_months_flat1',
             'label' => 'LBL_REGTERMMONTHSFL1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'regist_term_months_flat2',
+            'label' => 'LBL_REGTERMMONTHSFL2',
+          ),
         ),
         4 => 
         array (
@@ -272,7 +276,11 @@ array (
             'name' => 'regist_term_years_flat1',
             'label' => 'LBL_REGTERMНYEARSFL1',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'regist_term_years_flat2',
+            'label' => 'LBL_REGTERMНYEARSFL2',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

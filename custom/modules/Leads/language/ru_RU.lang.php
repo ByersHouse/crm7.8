@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 10:43:13
+// created: 2017-08-28 11:03:36
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -95,5 +95,8 @@ $mod_strings = array (
   'LBL_ROOM2NUMBER' => 'Номер помещения в доме',
   'LBL_DATEREGISTER' => 'Дата регистрации постоянного места проживания',
   'LBL_REGTERMНYEARSFL1' => 'Срок регистрации по данному адресу лет',
-  'LBL_REGTERMMONTHSFL1' => 'Срок регистрации по данному адресу',
+  'LBL_REGTERMMONTHSFL1' => 'Срок регистрации по данному адресу мес.',
+  'LBL_DATELIVESTART' => 'Дата начала проживания',
+  'LBL_REGTERMMONTHSFL2' => 'Срок проживания мес',
+  'LBL_REGTERMНYEARSFL2' => 'Срок проживания лет',
 );
