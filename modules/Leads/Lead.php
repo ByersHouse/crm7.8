@@ -226,6 +226,7 @@ class Lead extends Person {
         var $regist_term_years_flat2;
         var $work_address_street;
         var $work_address_city;
+        var $work_address_state;
         
         
 	var $table_name = "leads";

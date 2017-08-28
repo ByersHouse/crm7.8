@@ -305,6 +305,15 @@ array (
           ),
           1 => '',
         ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'work_address_state',
+            'label' => 'LBL_WORK_ADDRESS_STATE',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (
