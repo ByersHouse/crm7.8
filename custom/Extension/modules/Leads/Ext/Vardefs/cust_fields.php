@@ -2359,3 +2359,27 @@ $dictionary['Lead']['fields']['vk'] = array (
       'len' => '100',
       'size' => '20',
 );
+
+
+
+
+$dictionary['Lead']['fields']['twitter'] = array (
+      'required' => false,
+      'name' => 'twitter',
+      'vname' => 'LBL_TWITTER',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'ссылка на социальную сеть Twitter',
+      'help' => 'ссылка на социальную сеть Twitter',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '100',
+      'size' => '20',
+);

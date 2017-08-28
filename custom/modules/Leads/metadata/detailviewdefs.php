@@ -394,6 +394,15 @@ array (
             'label' => 'LBL_VK',
           ),
         ),
+        13 => 
+        array (
+          0 => 
+          array (
+            'name' => 'twitter',
+            'label' => 'LBL_TWITTER',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel2' => 
       array (
