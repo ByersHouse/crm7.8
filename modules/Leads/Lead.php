@@ -227,6 +227,8 @@ class Lead extends Person {
         var $work_address_street;
         var $work_address_city;
         var $work_address_state;
+        var $work_address_index;
+        var $work_address_country;
         
         
 	var $table_name = "leads";

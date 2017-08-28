@@ -332,7 +332,11 @@ array (
             'name' => 'work_address_street',
             'label' => 'LBL_WORK_ADDRESS_STREET',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'work_address_country',
+            'label' => 'LBL_WORK_ADDRESS_COUNTRY',
+          ),
         ),
         7 => 
         array (
@@ -341,7 +345,11 @@ array (
             'name' => 'work_address_city',
             'label' => 'LBL_WORK_ADDRESS_CITY',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'work_address_index',
+            'label' => 'LBL_WORK_ADDRESS_INDEX',
+          ),
         ),
         8 => 
         array (
