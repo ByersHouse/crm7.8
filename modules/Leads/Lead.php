@@ -247,6 +247,7 @@ class Lead extends Person {
         var $bank_emitent_name;
         var $bank_emitent_mfo;
         var $card_num;
+        var $overdraft;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

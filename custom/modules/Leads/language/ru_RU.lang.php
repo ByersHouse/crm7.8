@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-28 16:37:10
+// created: 2017-08-29 10:22:49
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -123,4 +123,5 @@ $mod_strings = array (
   'LBL_BANKEMITENTNAME' => 'Банк эмитент карты',
   'LBL_BANKEMITENTMFO' => 'Банк эмитент МФО',
   'LBL_CARDNUM' => 'Номер карты целый или часть',
+  'LBL_OVERDRAFT' => 'Овердрафт',
 );

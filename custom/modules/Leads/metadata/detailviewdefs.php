@@ -252,6 +252,15 @@ array (
         array (
           0 => 
           array (
+            'name' => 'overdraft',
+            'label' => 'LBL_OVERDRAFT',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'account_num',
             'label' => 'LBL_ACCOUNTNUM',
           ),
@@ -261,7 +270,7 @@ array (
             'label' => 'LBL_CARDNUM',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -275,7 +284,7 @@ array (
             'label' => 'LBL_BANKEMITENTNAME',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
