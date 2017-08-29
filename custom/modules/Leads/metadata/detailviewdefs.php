@@ -224,16 +224,25 @@ array (
         array (
           0 => 
           array (
-            'name' => 'placebirth',
-            'label' => 'LBL_PLACEBIRTH',
+            'name' => 'age',
+            'label' => 'LBL_AGE',
           ),
           1 => '',
         ),
         8 => 
         array (
-          0 => 'phone_fax',
+          0 => 
+          array (
+            'name' => 'placebirth',
+            'label' => 'LBL_PLACEBIRTH',
+          ),
+          1 => '',
         ),
         9 => 
+        array (
+          0 => 'phone_fax',
+        ),
+        10 => 
         array (
           0 => 
           array (
@@ -241,7 +250,7 @@ array (
           ),
           1 => 'website',
         ),
-        10 => 
+        11 => 
         array (
           0 => 'description',
         ),
@@ -255,7 +264,11 @@ array (
             'name' => 'credit_rating',
             'label' => 'LBL_CREDRATING',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'overdraft',
+            'label' => 'LBL_OVERDRAFT',
+          ),
         ),
         1 => 
         array (
