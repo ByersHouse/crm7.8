@@ -252,8 +252,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'overdraft',
-            'label' => 'LBL_OVERDRAFT',
+            'name' => 'credit_rating',
+            'label' => 'LBL_CREDRATING',
           ),
           1 => '',
         ),
