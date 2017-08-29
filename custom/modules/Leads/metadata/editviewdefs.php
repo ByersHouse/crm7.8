@@ -1061,4 +1061,13 @@ array (
     ),
   ),
 );
-?>
+
+
+$viewdefs['Leads']['EditView']['templateMeta']['includes'] =
+    array (
+        array (
+        'file' => 'custom/modules/Leads/js/ledit.js',
+        ),
+    );
+
+
