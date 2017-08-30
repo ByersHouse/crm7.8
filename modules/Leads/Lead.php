@@ -73,6 +73,8 @@ class Lead extends Person {
 	var $salutation;
 	var $first_name;
 	var $last_name;
+        var $first_name2;
+	var $last_name2;
 	var $title;
 	var $department;
 	var $reports_to_id;

@@ -2745,3 +2745,46 @@ $dictionary['Lead']['fields']['age'] = array (
       'min' => false,
       'max' => false,
     );
+
+
+$dictionary['Lead']['fields']['first_name2'] = array (
+      'required' => false,
+      'name' => 'first_name2',
+      'vname' => 'LBL_FIRSTNAME2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'История смены имени',
+      'help' => 'История смены имени',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);
+
+$dictionary['Lead']['fields']['last_name2'] = array (
+      'required' => false,
+      'name' => 'last_name2',
+      'vname' => 'LBL_LASTNAME2',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'История смены фамилии',
+      'help' => 'История смены фамилии',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '40',
+      'size' => '20',
+);

@@ -146,12 +146,26 @@ array (
         array (
           0 => 
           array (
+            'name' => 'photo',
+            'studio' => 'visible',
+            'label' => 'LBL_PHOTO',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'first_name',
             'comment' => 'First name of the contact',
             'label' => 'LBL_FIRST_NAME',
           ),
+          1 => 
+          array (
+            'name' => 'first_name2',
+            'label' => 'LBL_FIRSTNAME2',
+          ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -159,14 +173,10 @@ array (
             'comment' => 'Last name of the contact',
             'label' => 'LBL_LAST_NAME',
           ),
-        ),
-        2 => 
-        array (
-          0 => 
+          1 => 
           array (
-            'name' => 'photo',
-            'studio' => 'visible',
-            'label' => 'LBL_PHOTO',
+            'name' => 'last_name2',
+            'label' => 'LBL_LASTNAME2',
           ),
         ),
         3 => 

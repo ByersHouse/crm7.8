@@ -95,6 +95,13 @@ array (
         ),
       ),
       'syncDetailEditViews' => false,
+      'includes' => 
+      array (
+        0 => 
+        array (
+          'file' => 'custom/modules/Leads/js/ledit.js',
+        ),
+      ),
     ),
     'panels' => 
     array (
@@ -104,21 +111,32 @@ array (
         array (
           0 => 
           array (
-            'name' => 'first_name',
-            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name"  id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
-          ),
-        ),
-        1 => 
-        array (
-          0 => 'last_name',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'photo',
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'first_name',
+            'customCode' => '{html_options name="salutation" id="salutation" options=$fields.salutation.options selected=$fields.salutation.value}&nbsp;<input name="first_name"  id="first_name" size="25" maxlength="25" type="text" value="{$fields.first_name.value}">',
+          ),
+          1 => 
+          array (
+            'name' => 'first_name2',
+            'label' => 'LBL_FIRSTNAME2',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 'last_name',
+          1 => 
+          array (
+            'name' => 'last_name2',
+            'label' => 'LBL_LASTNAME2',
           ),
         ),
         3 => 
@@ -1061,13 +1079,4 @@ array (
     ),
   ),
 );
-
-
-$viewdefs['Leads']['EditView']['templateMeta']['includes'] =
-    array (
-        array (
-        'file' => 'custom/modules/Leads/js/ledit.js',
-        ),
-    );
-
-
+?>

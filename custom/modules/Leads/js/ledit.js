@@ -6,14 +6,24 @@
     
     
     
-    $( ".date_input" ).change(function() {
-           alert("www");
-    });
+  //  $( "#age" ).focus(function() {
+    //       alert("www");
+  //  });
+
+/*
+$( "input[type='text']" ).change(function() {
+
+ alert("e");
+
+});
 
 
 
 
-
+*/
 
 
 //});
+
+
+('#age').val(999);

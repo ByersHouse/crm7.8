@@ -1,5 +1,5 @@
 <?php
-// created: 2017-08-29 11:22:42
+// created: 2017-08-30 11:11:22
 $mod_strings = array (
   'LBL_LEAD_STATUS' => 'Статус клиента',
   'LBL_LEAD_SEX' => 'Пол',
@@ -126,4 +126,6 @@ $mod_strings = array (
   'LBL_OVERDRAFT' => 'Овердрафт',
   'LBL_CREDRATING' => 'Рейтинг кредитоспособности',
   'LBL_AGE' => 'Возраст',
+  'LBL_FIRSTNAME2' => 'История смены имени',
+  'LBL_LASTNAME2' => 'История смены фамилии',
 );
