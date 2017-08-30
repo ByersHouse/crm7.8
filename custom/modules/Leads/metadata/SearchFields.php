@@ -50,6 +50,8 @@ $searchFields['Leads'] = array (
       2 => 'phone_other',
       3 => 'phone_fax',
       4 => 'phone_home',
+      5 => 'phone_addr_registr',
+      6 => 'phone_addr_fact',  
     ),
   ),
   'email' => 

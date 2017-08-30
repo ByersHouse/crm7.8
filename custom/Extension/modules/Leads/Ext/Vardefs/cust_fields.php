@@ -2784,7 +2784,7 @@ $dictionary['Lead']['fields']['last_name2'] = array (
       'inline_edit' => true,
       'reportable' => true,
       'unified_search' => false,
-      'merge_filter' => 'disabled',
+      'merge_filter' => 'enabled',
       'len' => '40',
       'size' => '20',
 );
