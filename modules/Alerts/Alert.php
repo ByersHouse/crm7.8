@@ -55,6 +55,7 @@ class Alert extends Basic {
     var $created_by_name;
     var $description;
     var $deleted;
+    var $test;
     var $created_by_link;
     var $modified_user_link;
     var $assigned_user_id;
