@@ -181,6 +181,7 @@ Alerts.prototype.updateManager = function () {
       $('#desktop_notifications').addClass('has-alerts');
       $('.alertsButton').removeClass('btn-').addClass('btn-danger');
       $('.alert_count').removeClass('hidden');
+      $('.alertsButton').click();
     }
     else {
       $('#desktop_notifications').removeClass('has-alerts');
