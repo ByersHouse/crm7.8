@@ -1074,6 +1074,15 @@ array (
             'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'message_to_assigned',
+            'label' => 'LBL_MESTOASIGNED',
+          ),
+          1 => '',
+        ),
       ),
     ),
   ),
