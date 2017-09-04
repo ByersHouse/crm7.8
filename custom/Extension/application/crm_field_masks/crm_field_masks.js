@@ -63,12 +63,11 @@ function CRMFieldMasks()
 		$('input[name*="fax"]').inputmask({"mask": "9[+38]([0]99) 999-99-99"}); //specifying options
                 $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999",
                         onincomplete: function(){
-                             alert("Пожалуйста, укажите номер паспорта."); 
-                              
-                                //$('#card_num').focus(); 
-                             
+                             alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX"); 
                         }});
                 $('input[name*="ukrpasport_nom"]').inputmask({"mask": "[AA] 999999"});
+                $('input[name*="date"]').inputmask({"mask": "99/99/9999"});
+                $('input[name*="mfo"]').inputmask({"mask": "999999"});
 		this.cache_and_log('apply_masks - end', true );
 	}
 

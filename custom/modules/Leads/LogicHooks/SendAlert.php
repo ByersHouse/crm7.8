@@ -8,14 +8,14 @@ class LeadHooks{
         
         
         
-        //var_dump($bean->fetched_row);
-        //exit;
+       // var_dump($bean->fetched_row['first_name']." ".$bean->fetched_row['last_name']);
+       // exit;
         /*вариант 2 
          * $alert = BeanFactory::newBean('Alerts');
             $alert->name = 'My Alert';
         */
         $seedAlert = new Alert();
-        $seedAlert->name = "Предварительный контакт ".$bean->fetched_row['first_name']." ".$bean->fetched_row['last_name'];
+        $seedAlert->name = "Предварительный контакт '".$bean->fetched_row['first_name']." ".$bean->fetched_row['last_name']."'";
         $seedAlert->description = "Вам назначена задача";
         $seedAlert->assigned_user_id = $bean->fetched_row['assigned_user_id'];
         $seedAlert->is_read = 0 ;
