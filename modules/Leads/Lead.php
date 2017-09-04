@@ -253,6 +253,7 @@ class Lead extends Person {
         var $credit_rating;
         var $age;
         var $message_to_assigned;
+        var $patronymic; //отчество
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

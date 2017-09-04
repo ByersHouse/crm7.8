@@ -2789,6 +2789,29 @@ $dictionary['Lead']['fields']['last_name2'] = array (
       'size' => '20',
 );
 
+
+$dictionary['Lead']['fields']['patronymic'] = array (
+      'required' => false,
+      'name' => 'patronymic',
+      'vname' => 'LBL_PATRONIMYC',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Отчество',
+      'help' => 'Отчество',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'enabled',
+      'len' => '40',
+      'size' => '20',
+);
+
+
 $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'required' => false,
       'name' => 'message_to_assigned',
