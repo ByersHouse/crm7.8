@@ -68,6 +68,7 @@ function CRMFieldMasks()
                 $('input[name*="ukrpasport_nom"]').inputmask({"mask": "[AA] 999999"});
                 $('input[name*="date"]').inputmask({"mask": "99/99/9999"});
                 $('input[name*="mfo"]').inputmask({"mask": "999999"});
+                $('input[name*="inn"]').inputmask({"mask": "9999999999"});
 		this.cache_and_log('apply_masks - end', true );
 	}
 

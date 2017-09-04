@@ -32,6 +32,13 @@ $( document ).ready(function() {
            
     });
    
+   $("#patronymic").change(function() {
+        
+            var new_name = capitaliseFirstLetter($("#patronymic").val());
+            $("#patronymic").val(new_name);
+           
+    });
+   
    
     $("#date_birthday").change(function() {
        

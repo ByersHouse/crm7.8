@@ -72,7 +72,7 @@ $dictionary['Lead']['fields']['resident'] = array (
     );
 
 $dictionary['Lead']['fields']['inn']=array (
-      'required' => false,
+      'required' => true,
       'name' => 'inn',
       'vname' => 'LBL_INN',
       'type' => 'varchar',
@@ -88,7 +88,7 @@ $dictionary['Lead']['fields']['inn']=array (
       'reportable' => true,
       'unified_search' => false,
       'merge_filter' => 'disabled',
-      'len' => '15',
+      'len' => '10',
       'size' => '20',
     );
 
