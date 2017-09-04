@@ -73,7 +73,15 @@ $dictionary['Alert'] = array(
                     'type'		=> 'varchar',
                     'massupdate' => false,
                     'studio'=> 'false',
-                )
+                ),
+            'message_to_assigned' =>
+                array(
+                    'name'		=> 'message_to_assigned',
+                    'vname'     => 'LBL_MESTOASIGNED',
+                    'type'		=> 'varchar',
+                    'massupdate' => false,
+                    'studio'=> 'false',
+                )        
 ),
 	'relationships'=>array (
 ),
