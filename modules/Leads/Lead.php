@@ -252,6 +252,7 @@ class Lead extends Person {
         var $overdraft;
         var $credit_rating;
         var $age;
+        var $message_to_assigned;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";
