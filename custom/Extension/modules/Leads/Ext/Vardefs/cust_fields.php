@@ -2807,7 +2807,7 @@ $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'unified_search' => false,
       'merge_filter' => 'enabled',
       'len' => '0',
-      'size' => '20',
+      'size' => '40',
       'rows'=>'10',
-      'cols'=>'10',
+      'cols'=>'20',
 );

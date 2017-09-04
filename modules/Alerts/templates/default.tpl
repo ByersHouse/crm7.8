@@ -18,12 +18,14 @@
         {/if}
         </h4>
         <p class="alert-body">
-            {$result->description|nl2br}
+            <h3>{$result->description|nl2br}</h3>
             <hr>
             {$result->name|nl2br}<br/>
+            {if $result->message_to_assigned != null }
             <hr>
-            <b>Сообщение</b><br/>
+            <b>Сообщение:</b><br/>
             {$result->message_to_assigned|nl2br}
+            {/if}
         </p>
     </div>
 {/foreach}

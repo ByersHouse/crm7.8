@@ -22,5 +22,5 @@ $dictionary['Alert']['fields']['message_to_assigned'] = array (
       'len' => '0',
       'size' => '20',
       'rows'=>'10',
-      'cols'=>'10',
+      'cols'=>'20',
 );
