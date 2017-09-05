@@ -50,6 +50,49 @@ $( document ).ready(function() {
             calculateAge();
     });
  
+ 
+    $("#bank_mfo").change(function() {
+        
+        
+        var url ="banks.php";
+        var data = {};
+        data.mfo = $("#bank_mfo").val();
+     
+        var jqxhr = $.post(url,data)
+        .success(function(res){ 
+            if(res!='not_found'){
+                $("#bank_name").val(res);
+            }else{
+                alert("Банк с МФО "+$("#bank_mfo").val()+" не найден в системе ");
+            }
+            
+        })
+        .error(function() { /*alert("Ошибка выполнения");*/ })
+        .complete(function() {  });  
+    });
+    
+    
+    $("#bank_emitent_mfo").change(function() {
+        
+        
+        var url ="banks.php";
+        var data = {};
+        data.mfo = $("#bank_emitent_mfo").val();
+     
+        var jqxhr = $.post(url,data)
+        .success(function(res){ 
+            if(res!='not_found'){
+                $("#bank_emitent_name").val(res);
+            }else{
+                alert("Банк с МФО "+$("#bank_emitent_mfo").val()+" не найден в системе ");
+            }
+            
+        })
+        .error(function() { /*alert("Ошибка выполнения");*/ })
+        .complete(function() {  });  
+    });
+ 
+ 
     function strRight(n,str){
         return str.substring(str.length-n,str.length);
     }
@@ -58,7 +101,11 @@ $( document ).ready(function() {
         var today = new Date();
         var yr = today.getFullYear();
         var dr_year = strRight(4,$("#date_birthday").val());
-        $('#age').val(yr-dr_year);
+        if(dr_year!=0){
+            $('#age').val(yr-dr_year);
+        }else{
+            alert("Введите дату рождения для автоматического расчета возраста");
+        }   
     }
     
     function capitaliseFirstLetter(string){
