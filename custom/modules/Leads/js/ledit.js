@@ -1,9 +1,14 @@
 
 
-
-
 $( document ).ready(function() {
+    
+    
+    
 
+    
+    
+    
+    
     $("#first_name").change(function() {
         
             var new_name = capitaliseFirstLetter($("#first_name").val());
@@ -59,16 +64,16 @@ $( document ).ready(function() {
         data.mfo = $("#bank_mfo").val();
      
         var jqxhr = $.post(url,data)
-        .success(function(res){ 
-            if(res!='not_found'){
-                $("#bank_name").val(res);
-            }else{
-                alert("Банк с МФО "+$("#bank_mfo").val()+" не найден в системе ");
-            }
-            
-        })
-        .error(function() { /*alert("Ошибка выполнения");*/ })
-        .complete(function() {  });  
+            .success(function(res){ 
+                if(res!='not_found'){
+                    $("#bank_name").val(res);
+                }else{
+                    alert("Банк с МФО "+$("#bank_mfo").val()+" не найден в системе ");
+                }
+
+            })
+            .error(function() { /*alert("Ошибка выполнения");*/ })
+            .complete(function() {  });  
     });
     
     
@@ -80,16 +85,16 @@ $( document ).ready(function() {
         data.mfo = $("#bank_emitent_mfo").val();
      
         var jqxhr = $.post(url,data)
-        .success(function(res){ 
-            if(res!='not_found'){
-                $("#bank_emitent_name").val(res);
-            }else{
-                alert("Банк с МФО "+$("#bank_emitent_mfo").val()+" не найден в системе ");
-            }
-            
-        })
-        .error(function() { /*alert("Ошибка выполнения");*/ })
-        .complete(function() {  });  
+            .success(function(res){ 
+                if(res!='not_found'){
+                    $("#bank_emitent_name").val(res);
+                }else{
+                    alert("Банк с МФО "+$("#bank_emitent_mfo").val()+" не найден в системе ");
+                }
+
+            })
+            .error(function() { /*alert("Ошибка выполнения");*/ })
+            .complete(function() {  });  
     });
  
  

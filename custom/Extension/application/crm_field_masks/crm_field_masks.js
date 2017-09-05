@@ -60,15 +60,16 @@ function CRMFieldMasks()
 		this.cache_and_log('apply_masks - begin', true );
 
 		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
-		$('input[name*="fax"]').inputmask({"mask": "9[+38]([0]99) 999-99-99"}); //specifying options
+		$('input[name*="fax"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
                 $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999",
                         onincomplete: function(){
                              alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX"); 
                         }});
-                $('input[name*="ukrpasport_nom"]').inputmask({"mask": "[AA] 999999"});
+                $('input[name*="ukrpasport_nom"]').inputmask({"mask": "[AA]999999"});
                 $('input[name*="date"]').inputmask({"mask": "99/99/9999"});
                 $('input[name*="mfo"]').inputmask({"mask": "999999"});
                 $('input[name*="inn"]').inputmask({"mask": "9999999999"});
+                
 		this.cache_and_log('apply_masks - end', true );
 	}
 
