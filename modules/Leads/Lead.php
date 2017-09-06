@@ -254,6 +254,7 @@ class Lead extends Person {
         var $age;
         var $message_to_assigned;
         var $patronymic; //отчество
+        var $child_count;
         
 	var $table_name = "leads";
 	var $object_name = "Lead";

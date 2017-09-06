@@ -61,7 +61,7 @@ function CRMFieldMasks()
 
 		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 		$('input[name*="fax"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
-                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999",
+                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999","placeholder":" ",
                         onincomplete: function(){
                              alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX"); 
                         }});

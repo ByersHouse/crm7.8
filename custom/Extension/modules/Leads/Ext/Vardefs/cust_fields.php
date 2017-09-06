@@ -2834,3 +2834,27 @@ $dictionary['Lead']['fields']['message_to_assigned'] = array (
       'rows'=>'10',
       'cols'=>'20',
 );
+
+
+$dictionary['Lead']['fields']['child_count'] = array (
+      'required' => false,
+      'name' => 'child_count',
+      'vname' => 'LBL_CHILDCOUNT',
+      'type' => 'integer',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Количество детей',
+      'help' => 'Количество детей',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => false,
+      'reportable' => true,
+      'readonly' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'len' => '2',
+      'size' => '5',
+      'enable_range_search' => false,
+);

@@ -72,7 +72,7 @@ $( document ).ready(function() {
                     $("#bank_name").val(bank_name);
                 }else{
                     alert("Банк с МФО "+$("#bank_mfo").val()+" не найден в системе ");
-                    $("#bank_name").val();
+                    $("#bank_name").val("");
                 }
 
             })
@@ -96,7 +96,7 @@ $( document ).ready(function() {
                     $("#bank_emitent_name").val(bank_name);
                 }else{
                     alert("Банк с МФО "+$("#bank_emitent_mfo").val()+" не найден в системе ");
-                    $("#bank_emitent_name").val();
+                    $("#bank_emitent_name").val("");
                 }
 
             })
