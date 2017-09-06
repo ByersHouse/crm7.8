@@ -59,7 +59,7 @@ $( document ).ready(function() {
     $("#bank_mfo").change(function() {
         
         
-        var url ="banks.php";
+        var url ="index.php?module=Leads&action=banksAction";
         var data = {};
         data.mfo = $("#bank_mfo").val();
      
@@ -80,7 +80,7 @@ $( document ).ready(function() {
     $("#bank_emitent_mfo").change(function() {
         
         
-        var url ="banks.php";
+        var url ="index.php?module=Leads&action=banksAction";
         var data = {};
         data.mfo = $("#bank_emitent_mfo").val();
      
