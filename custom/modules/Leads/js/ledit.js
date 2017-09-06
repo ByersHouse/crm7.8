@@ -102,6 +102,14 @@ $( document ).ready(function() {
             .complete(function() {  });  
     });
  
+    $('#account_num').bind("change keyup input click", function() {
+        if (this.value.match(/[^0-9]/g)) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        }
+    });
+ 
+ 
+ 
  
     function strRight(n,str){
         return str.substring(str.length-n,str.length);
