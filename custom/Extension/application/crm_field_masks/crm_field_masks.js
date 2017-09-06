@@ -59,9 +59,9 @@ function CRMFieldMasks()
 	{
 		this.cache_and_log('apply_masks - begin', true );
 
-		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99","delimiter":" "}); //specifying options
+		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 		$('input[name*="fax"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
-                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999","delimiter":" ",
+                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999",
                         onincomplete: function(){
                              alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX"); 
                         }});

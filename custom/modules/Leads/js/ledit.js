@@ -59,14 +59,17 @@ $( document ).ready(function() {
     $("#bank_mfo").change(function() {
         
         
-        var url ="index.php?module=Leads&action=banksAction";
+        var url ="index.php?module=Leads&action=banksAction&to_pdf=1";
         var data = {};
         data.mfo = $("#bank_mfo").val();
      
         var jqxhr = $.post(url,data)
             .success(function(res){ 
-                if(res!='not_found'){
-                    $("#bank_name").val(res);
+                var pos = res.indexOf('<');
+                var bank_name = res.substring(0,pos);
+                
+                if(bank_name!='not_found'){
+                    $("#bank_name").val(bank_name);
                 }else{
                     alert("Банк с МФО "+$("#bank_mfo").val()+" не найден в системе ");
                 }
@@ -80,14 +83,16 @@ $( document ).ready(function() {
     $("#bank_emitent_mfo").change(function() {
         
         
-        var url ="index.php?module=Leads&action=banksAction";
+        var url ="index.php?module=Leads&action=banksAction&to_pdf=1";
         var data = {};
         data.mfo = $("#bank_emitent_mfo").val();
      
         var jqxhr = $.post(url,data)
             .success(function(res){ 
-                if(res!='not_found'){
-                    $("#bank_emitent_name").val(res);
+                var pos = res.indexOf('<');
+                var bank_name = res.substring(0,pos);
+                if(bank_name!='not_found'){
+                    $("#bank_emitent_name").val(bank_name);
                 }else{
                     alert("Банк с МФО "+$("#bank_emitent_mfo").val()+" не найден в системе ");
                 }

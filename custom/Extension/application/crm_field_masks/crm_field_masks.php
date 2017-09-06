@@ -48,7 +48,7 @@ class crm_field_masks
 	}
 
 	function load_js()
-	{
+	{   
 		echo '<script type="text/javascript" src="custom/Extension/application/crm_field_masks/crm_field_masks.js"></script>';
 	}
 

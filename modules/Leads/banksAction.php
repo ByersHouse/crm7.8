@@ -9,7 +9,7 @@ if(isset($_REQUEST['mfo'])){
   
     if($bank_name){
         
-       echo $bank_name;
+       echo html_entity_decode($bank_name,ENT_QUOTES);
     
        
     }else{
