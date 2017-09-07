@@ -1193,7 +1193,7 @@ $dictionary['Lead']['fields']['volume_trans1'] = array (
       'required' => false,
       'name' => 'volume_trans1',
       'vname' => 'LBL_VOLUME_TRANS1',
-      'type' => 'varchar',
+      'type' => 'decimal',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Обьем двигателя транспорта 1',
@@ -1208,13 +1208,21 @@ $dictionary['Lead']['fields']['volume_trans1'] = array (
       'merge_filter' => 'disabled',
       'len' => '10',
       'size' => '20',
+      'precision' => '1',
     );
+
+
+
+
+
+
+
 
 $dictionary['Lead']['fields']['volume_trans2'] = array (
       'required' => false,
       'name' => 'volume_trans2',
       'vname' => 'LBL_VOLUME_TRANS2',
-      'type' => 'varchar',
+      'type' => 'decimal',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Обьем двигателя транспорта 2',
@@ -1229,6 +1237,7 @@ $dictionary['Lead']['fields']['volume_trans2'] = array (
       'merge_filter' => 'disabled',
       'len' => '10',
       'size' => '20',
+      'precision' => '1',
     );
 
 
@@ -1236,7 +1245,7 @@ $dictionary['Lead']['fields']['volume_trans3'] = array (
       'required' => false,
       'name' => 'volume_trans3',
       'vname' => 'LBL_VOLUME_TRANS3',
-      'type' => 'varchar',
+      'type' => 'decimal',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Обьем двигателя транспорта 3',
@@ -1251,13 +1260,14 @@ $dictionary['Lead']['fields']['volume_trans3'] = array (
       'merge_filter' => 'disabled',
       'len' => '10',
       'size' => '20',
+      'precision' => '1',
     );
 
 $dictionary['Lead']['fields']['volume_trans4'] = array (
       'required' => false,
       'name' => 'volume_trans4',
       'vname' => 'LBL_VOLUME_TRANS4',
-      'type' => 'varchar',
+      'type' => 'decimal',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Обьем двигателя транспорта 4',
@@ -1272,6 +1282,7 @@ $dictionary['Lead']['fields']['volume_trans4'] = array (
       'merge_filter' => 'disabled',
       'len' => '10',
       'size' => '20',
+      'precision' => '1',
     );
 
 
@@ -2848,7 +2859,7 @@ $dictionary['Lead']['fields']['child_count'] = array (
       'required' => false,
       'name' => 'child_count',
       'vname' => 'LBL_CHILDCOUNT',
-      'type' => 'integer',
+      'type' => 'int',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Количество детей',
@@ -2857,12 +2868,15 @@ $dictionary['Lead']['fields']['child_count'] = array (
       'duplicate_merge' => 'disabled',
       'duplicate_merge_dom_value' => '0',
       'audited' => false,
-      'inline_edit' => false,
+      'inline_edit' => true,
       'reportable' => true,
-      'readonly' => true,
       'unified_search' => false,
       'merge_filter' => 'disabled',
       'len' => '2',
       'size' => '5',
       'enable_range_search' => false,
+      'disable_num_format' => '1',
+      'min' => false,
+      'max' => false,
+    
 );
