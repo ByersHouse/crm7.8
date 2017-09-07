@@ -61,14 +61,29 @@ function CRMFieldMasks()
 
 		$('input[name*="phone"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
 		$('input[name*="fax"]').inputmask({"mask": "[+38]([0]99) 999-99-99"}); //specifying options
-                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999","placeholder":" ",
+                $('input[name*="card_num"]').inputmask({"mask": "9999 9999 9999 9999",clearMaskOnLostFocus: true,
                         onincomplete: function(){
-                             alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX"); 
-                        }});
+                             //alert("Пожалуйста, укажите 16 цифр в формате XXXX XXXX XXXX XXXX");
+                             //$(this).css({'border' : '1px solid #ff0000'});
+                             //$(':input[type="submit"]').prop('disabled', true);
+                        }},
+                    );
                 $('input[name*="ukrpasport_nom"]').inputmask({"mask": "[AA]999999"});
                 $('input[name*="date"]').inputmask({"mask": "99/99/9999"});
-                $('input[name*="mfo"]').inputmask({"mask": "999999"});
-                $('input[name*="inn"]').inputmask({"mask": "9999999999"});
+                $('input[name*="mfo"]').inputmask({"mask": "999999",clearMaskOnLostFocus: true});
+                $('input[name*="inn"]').inputmask({"mask": "9999999999",clearMaskOnLostFocus: true,
+                   onincomplete: function(){
+                       
+                            // $(this).css({'border' : '1px solid #ff0000'});
+                             //$(':input[type="submit"]').prop('disabled', true);
+                        },
+                    complete: function(){
+                          
+                            // $(this).css({'border' : '1px solid #569b44'});
+                             //$(':input[type="submit"]').prop('disabled', true);
+                    }
+            
+                });
                 
 		this.cache_and_log('apply_masks - end', true );
 	}

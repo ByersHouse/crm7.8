@@ -291,11 +291,7 @@ array (
         ),
         1 => 
         array (
-          0 => 
-          array (
-            'name' => 'account_num',
-            'label' => 'LBL_ACCOUNTNUM',
-          ),
+          0 => '',
           1 => 
           array (
             'name' => 'card_num',
@@ -974,7 +970,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FAMILYSTATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'child_count',
+            'label' => 'LBL_CHILDCOUNT',
+          ),
         ),
       ),
       'lbl_editview_panel4' => 

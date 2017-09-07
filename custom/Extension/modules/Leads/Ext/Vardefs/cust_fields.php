@@ -897,7 +897,7 @@ $dictionary['Lead']['fields']['yearissuetrans1'] = array (
       'required' => false,
       'name' => 'yearissuetrans1',
       'vname' => 'LBL_YEARISSUETR1',
-      'type' => 'varchar',
+      'type' => 'enum',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Год выпуска транспорта 1',
@@ -912,7 +912,9 @@ $dictionary['Lead']['fields']['yearissuetrans1'] = array (
       'merge_filter' => 'disabled',
       'len' => '4',
       'size' => '20',
-    );
+      'options' => 'lead_yeartrans_list',
+      'studio' => 'visible',
+);
 
 
 
@@ -921,11 +923,11 @@ $dictionary['Lead']['fields']['yearissuetrans2'] = array (
       'required' => false,
       'name' => 'yearissuetrans2',
       'vname' => 'LBL_YEARISSUETR2',
-      'type' => 'varchar',
+      'type' => 'enum',
       'massupdate' => 0,
       'no_default' => false,
-      'comments' => 'Год выпуска транспорта 1',
-      'help' => 'Год выпуска транспорта 1',
+      'comments' => 'Год выпуска транспорта 2',
+      'help' => 'Год выпуска транспорта 2',
       'importable' => 'true',
       'duplicate_merge' => 'enabled',
       'duplicate_merge_dom_value' => '1',
@@ -936,7 +938,9 @@ $dictionary['Lead']['fields']['yearissuetrans2'] = array (
       'merge_filter' => 'disabled',
       'len' => '4',
       'size' => '20',
-    );
+      'options' => 'lead_yeartrans_list',
+      'studio' => 'visible',  
+);
 
 
 
@@ -945,7 +949,7 @@ $dictionary['Lead']['fields']['yearissuetrans3'] = array (
       'required' => false,
       'name' => 'yearissuetrans3',
       'vname' => 'LBL_YEARISSUETR3',
-      'type' => 'varchar',
+      'type' => 'enum',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Год выпуска транспорта 3',
@@ -960,7 +964,9 @@ $dictionary['Lead']['fields']['yearissuetrans3'] = array (
       'merge_filter' => 'disabled',
       'len' => '4',
       'size' => '20',
-    );
+      'options' => 'lead_yeartrans_list',
+      'studio' => 'visible',
+);
 
 
 
@@ -969,7 +975,7 @@ $dictionary['Lead']['fields']['yearissuetrans4'] = array (
       'required' => false,
       'name' => 'yearissuetrans4',
       'vname' => 'LBL_YEARISSUETR4',
-      'type' => 'varchar',
+      'type' => 'enum',
       'massupdate' => 0,
       'no_default' => false,
       'comments' => 'Год выпуска транспорта 4',
@@ -984,7 +990,9 @@ $dictionary['Lead']['fields']['yearissuetrans4'] = array (
       'merge_filter' => 'disabled',
       'len' => '4',
       'size' => '20',
-    );
+      'options' => 'lead_yeartrans_list',
+      'studio' => 'visible',
+);
 
 
 

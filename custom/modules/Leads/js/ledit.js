@@ -6,6 +6,14 @@ $( document ).ready(function() {
     
 
     
+    $('#credit_rating').prop('readonly', true);
+    $('#overdraft').prop('readonly', true);
+    
+    $('#account_num','#child_count').bind("change keyup input click", function() {
+        if (this.value.match(/[^0-9]/g)) {
+            this.value = this.value.replace(/[^0-9]/g, '');
+        }
+    });
     
     
     
@@ -104,13 +112,27 @@ $( document ).ready(function() {
             .complete(function() {  });  
     });
  
-    $('#account_num').bind("change keyup input click", function() {
-        if (this.value.match(/[^0-9]/g)) {
-            this.value = this.value.replace(/[^0-9]/g, '');
-        }
+ 
+ 
+ $('input[type="email"]').on('change', function(e) {
+    
+            alert("wow");
+});
+    /* $('input[type="email"]')
+    $('input[type="email"]').input(function() {
+            
+            
+            var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+            if(pattern.test($(this).val())){
+                $(this).css({'border' : '1px solid #569b44'});
+                
+            } else {
+                $(this).css({'border' : '1px solid #ff0000'});
+              
+            }
+       
     });
- 
- 
+ */
  
  
     function strRight(n,str){

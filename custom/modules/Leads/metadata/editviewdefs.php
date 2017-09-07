@@ -94,7 +94,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => false,
+      'syncDetailEditViews' => true,
       'includes' => 
       array (
         0 => 
@@ -242,16 +242,25 @@ array (
         array (
           0 => 
           array (
-            'name' => 'account_num',
-            'label' => 'LBL_ACCOUNTNUM',
+            'name' => 'credit_rating',
+            'label' => 'LBL_CREDRATING',
           ),
+          1 => 
+          array (
+            'name' => 'overdraft',
+            'label' => 'LBL_OVERDRAFT',
+          ),
+        ),
+        1 => 
+        array (
+          0 => '',
           1 => 
           array (
             'name' => 'card_num',
             'label' => 'LBL_CARDNUM',
           ),
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -265,7 +274,7 @@ array (
             'label' => 'LBL_BANKEMITENTNAME',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -930,7 +939,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FAMILYSTATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'child_count',
+            'label' => 'LBL_CHILDCOUNT',
+          ),
         ),
       ),
       'lbl_editview_panel4' => 
