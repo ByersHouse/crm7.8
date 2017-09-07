@@ -9,7 +9,7 @@ $( document ).ready(function() {
     $('#credit_rating').prop('readonly', true);
     $('#overdraft').prop('readonly', true);
     
-    $('#account_num','#child_count').bind("change keyup input click", function() {
+    $('#account_num,#child_count').bind("change keyup input click", function() {
         if (this.value.match(/[^0-9]/g)) {
             this.value = this.value.replace(/[^0-9]/g, '');
         }
