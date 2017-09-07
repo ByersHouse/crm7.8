@@ -914,6 +914,7 @@ $dictionary['Lead']['fields']['yearissuetrans1'] = array (
       'size' => '20',
       'options' => 'lead_yeartrans_list',
       'studio' => 'visible',
+      'dbType' => 'integer',
 );
 
 
@@ -939,7 +940,8 @@ $dictionary['Lead']['fields']['yearissuetrans2'] = array (
       'len' => '4',
       'size' => '20',
       'options' => 'lead_yeartrans_list',
-      'studio' => 'visible',  
+      'studio' => 'visible',
+      'dbType' => 'integer',
 );
 
 
@@ -966,6 +968,7 @@ $dictionary['Lead']['fields']['yearissuetrans3'] = array (
       'size' => '20',
       'options' => 'lead_yeartrans_list',
       'studio' => 'visible',
+      'dbType' => 'integer',
 );
 
 
@@ -992,6 +995,7 @@ $dictionary['Lead']['fields']['yearissuetrans4'] = array (
       'size' => '20',
       'options' => 'lead_yeartrans_list',
       'studio' => 'visible',
+      'dbType' => 'integer',
 );
 
 
