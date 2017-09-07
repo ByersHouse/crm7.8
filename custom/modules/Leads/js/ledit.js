@@ -18,12 +18,28 @@ $( document ).ready(function() {
     });
     
     
-      /*ввод только цифр и точки*/
+    /*ввод только цифр и точки*/
     $('input[name*="volume"]').bind("change keyup input click", function() {
         if (this.value.match(/[^0-9\.]/g)) {
             this.value = this.value.replace(/[^0-9.]/g, '');
         }
     });
+    
+    
+    
+    /*ввод только букв и первая большая*/
+    $('#placebirth').bind("change keyup input click", function() {
+        if (this.value.match(/[^А-я]/g)) {
+            this.value = this.value.replace(/[^А-я]/g, '');
+            
+        }
+        var new_name = capitaliseFirstLetter($(this).val());
+        
+        $(this).val(new_name);
+        
+    });
+    
+    
     
     
     $("#first_name").change(function() {
