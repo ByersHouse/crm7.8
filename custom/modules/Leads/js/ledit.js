@@ -21,7 +21,7 @@ $( document ).ready(function() {
       /*ввод только цифр и точки*/
     $('input[name*="volume"]').bind("change keyup input click", function() {
         if (this.value.match(/[^0-9\.]/g)) {
-            this.value = this.value.replace(/[^0-9]/g, '');
+            this.value = this.value.replace(/[^0-9.]/g, '');
         }
     });
     
