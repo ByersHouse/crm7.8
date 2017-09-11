@@ -65,3 +65,26 @@ $dictionary['bh_Card_ident']['fields']['card_status'] = array (
       'size' => '20',
       'enable_range_search' => false,
 );
+
+$dictionary['bh_Card_ident']['fields']['pin_status'] = array (
+      'required' => false,
+      'name' => 'pin_status',
+      'vname' => 'LBL_CARD_PIN_STATUS',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'options' => 'pin_status_list',
+      'studio' => 'visible',
+      'size' => '20',
+      'enable_range_search' => false,
+);

@@ -61,7 +61,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_CARD_STATUS',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'pin_status',
+            'studio' => 'visible',
+            'label' => 'LBL_CARD_PIN_STATUS',
+          ),
         ),
         3 => 
         array (
