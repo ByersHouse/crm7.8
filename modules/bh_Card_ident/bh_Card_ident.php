@@ -57,6 +57,8 @@ class bh_Card_ident extends Basic
     public $created_by_name;
     public $description;
     public $deleted;
+    public $date_vidachi;
+    
     public $created_by_link;
     public $modified_user_link;
     public $assigned_user_id;
@@ -75,4 +77,4 @@ class bh_Card_ident extends Basic
         return false;
     }
 	
-}
+}
