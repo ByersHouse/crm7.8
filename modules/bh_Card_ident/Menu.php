@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -50,8 +38,15 @@ $app_list_strings['call_status_dom']=array (
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+ if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
-
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
-
-?>
+global $mod_strings, $app_strings, $sugar_config;
+ 
+if(ACLController::checkAccess('bh_Card_ident', 'edit', true)){
+    $module_menu[]=array('index.php?module=bh_Card_ident&action=EditView&return_module=bh_Card_ident&return_action=DetailView', $mod_strings['LNK_NEW_RECORD'], 'Add', 'bh_Card_ident');
+}
+if(ACLController::checkAccess('bh_Card_ident', 'list', true)){
+    $module_menu[]=array('index.php?module=bh_Card_ident&action=index&return_module=bh_Card_ident&return_action=DetailView', $mod_strings['LNK_LIST'],'View', 'bh_Card_ident');
+}

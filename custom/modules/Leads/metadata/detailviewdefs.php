@@ -186,7 +186,6 @@ array (
             'name' => 'patronymic',
             'label' => 'LBL_PATRONIMYC',
           ),
-          1 => '',
         ),
         4 => 
         array (
@@ -246,7 +245,6 @@ array (
             'name' => 'age',
             'label' => 'LBL_AGE',
           ),
-          1 => '',
         ),
         9 => 
         array (
@@ -255,7 +253,6 @@ array (
             'name' => 'placebirth',
             'label' => 'LBL_PLACEBIRTH',
           ),
-          1 => '',
         ),
         10 => 
         array (
@@ -272,6 +269,10 @@ array (
         12 => 
         array (
           0 => 'description',
+          1 => 
+          array (
+            'name' => 'bh_card_ident_leads_name',
+          ),
         ),
       ),
       'lbl_editview_panel8' => 
@@ -291,7 +292,6 @@ array (
         ),
         1 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'card_num',
@@ -371,7 +371,6 @@ array (
             'name' => 'flat1_dateregister',
             'label' => 'LBL_DATEREGISTER',
           ),
-          1 => '',
         ),
         3 => 
         array (
@@ -401,8 +400,6 @@ array (
         ),
         5 => 
         array (
-          0 => '',
-          1 => '',
         ),
         6 => 
         array (
@@ -424,7 +421,6 @@ array (
         ),
         8 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'phone_addr_fact',
@@ -485,7 +481,6 @@ array (
         ),
         13 => 
         array (
-          0 => '',
           1 => 'email1',
         ),
         14 => 
@@ -788,7 +783,6 @@ array (
         ),
         9 => 
         array (
-          0 => '',
         ),
         10 => 
         array (
@@ -957,7 +951,6 @@ array (
             'name' => 'srok_vladenya_nedvizh',
             'label' => 'LBL_SROK_VLADENIYA',
           ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel5' => 
@@ -1024,7 +1017,6 @@ array (
         ),
         2 => 
         array (
-          0 => '',
           1 => 
           array (
             'name' => 'zagrpas_date_end',
@@ -1064,7 +1056,6 @@ array (
             'name' => 'nerezpas_date_end',
             'label' => 'LBL_NEREZPASP_DATEEND',
           ),
-          1 => '',
         ),
         6 => 
         array (
@@ -1086,7 +1077,6 @@ array (
             'name' => 'vidnazhit_date_end',
             'label' => 'LBL_VIDNAZHIT_DATEEND',
           ),
-          1 => '',
         ),
       ),
       'LBL_PANEL_ADVANCED' => 
@@ -1132,7 +1122,6 @@ array (
             'name' => 'message_to_assigned',
             'label' => 'LBL_MESTOASIGNED',
           ),
-          1 => '',
         ),
       ),
     ),

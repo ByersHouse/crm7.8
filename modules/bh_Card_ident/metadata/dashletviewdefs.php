@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -50,8 +38,42 @@ $app_list_strings['call_status_dom']=array (
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
+global $current_user;
 
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
-
-?>
+$dashletData['bh_Card_identDashlet']['searchFields'] = array(
+    'date_entered' => array('default' => ''),
+    'date_modified' => array('default' => ''),
+    'assigned_user_id' => array(
+        'type' => 'assigned_user_name',
+        'default' => $current_user->name
+    )
+);
+$dashletData['bh_Card_identDashlet']['columns'] = array(
+    'name' => array(
+        'width' => '40',
+        'label' => 'LBL_LIST_NAME',
+        'link' => true,
+        'default' => true
+    ),
+    'date_entered' => array(
+        'width' => '15',
+        'label' => 'LBL_DATE_ENTERED',
+        'default' => true
+    ),
+    'date_modified' => array(
+        'width' => '15',
+        'label' => 'LBL_DATE_MODIFIED'
+    ),
+    'created_by' => array(
+        'width' => '8',
+        'label' => 'LBL_CREATED'
+    ),
+    'assigned_user_name' => array(
+        'width' => '8',
+        'label' => 'LBL_LIST_ASSIGNED_USER'
+    ),
+);

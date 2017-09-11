@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -50,8 +38,28 @@ $app_list_strings['call_status_dom']=array (
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
+require_once('include/Dashlets/DashletGeneric.php');
+require_once('modules/bh_Card_ident/bh_Card_ident.php');
 
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
+class <module_name > Dashlet extends DashletGeneric {
+    function __construct($id, $def = null)
+    {
+        global $current_user, $app_strings;
+        require('modules/bh_Card_ident/metadata/dashletviewdefs.php');
 
-?>
+        parent::__construct($id, $def);
+
+        if (empty($def['title'])) {
+            $this->title = translate('LBL_HOMEPAGE_TITLE', 'bh_Card_ident');
+        }
+
+        $this->searchFields = $dashletData['bh_Card_identDashlet']['searchFields'];
+        $this->columns = $dashletData['bh_Card_identDashlet']['columns'];
+
+        $this->seedBean = new bh_Card_ident();        
+    }
+}

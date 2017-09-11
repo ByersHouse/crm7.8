@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -51,7 +39,37 @@ $app_list_strings['call_status_dom']=array (
  */
 
 
-
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
-
-?>
+$mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
+  'LBL_SECURITYGROUPS' => 'Группы пользователей',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
+  'LBL_ID' => 'ID',
+  'LBL_DATE_ENTERED' => 'Дата создания',
+  'LBL_DATE_MODIFIED' => 'Дата изменения',
+  'LBL_MODIFIED' => 'Изменено',
+  'LBL_MODIFIED_ID' => 'Изменено(ID)',
+  'LBL_MODIFIED_NAME' => 'Изменено',
+  'LBL_CREATED' => 'Создано',
+  'LBL_CREATED_ID' => 'Создано(ID)',
+  'LBL_DESCRIPTION' => 'Описание',
+  'LBL_DELETED' => 'Удалено',
+  'LBL_NAME' => 'Название',
+  'LBL_CREATED_USER' => 'Создано',
+  'LBL_MODIFIED_USER' => 'Изменено',
+  'LBL_LIST_NAME' => 'Название',
+  'LBL_EDIT_BUTTON' => 'Править',
+  'LBL_REMOVE' => 'Удалить',
+  'LBL_LIST_FORM_TITLE' => 'Карта Идентификатор Список',
+  'LBL_MODULE_NAME' => 'Карта Идентификатор',
+  'LBL_MODULE_TITLE' => 'Карта Идентификатор',
+  'LBL_HOMEPAGE_TITLE' => 'Мой Карта Идентификатор',
+  'LNK_NEW_RECORD' => 'Создать Карта Идентификатор',
+  'LNK_LIST' => 'Просмотр Карта Идентификатор',
+  'LNK_IMPORT_BH_CARD_IDENT' => 'Импорт Карта Идентификатор',
+  'LBL_SEARCH_FORM_TITLE' => 'Фильтр Карта Идентификатор',
+  'LBL_HISTORY_SUBPANEL_TITLE' => 'Просмотр истории',
+  'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
+  'LBL_BH_CARD_IDENT_SUBPANEL_TITLE' => 'Карта Идентификатор',
+  'LBL_NEW_FORM_TITLE' => 'Новый Карта Идентификатор',
+);

@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -50,8 +38,25 @@ $app_list_strings['call_status_dom']=array (
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+$module_name = 'bh_Card_ident';
+$viewdefs[$module_name]['QuickCreate'] = array(
+    'templateMeta' => array(
+        'maxColumns' => '2',
+        'widths' => array(
+            array('label' => '10', 'field' => '30'),
+            array('label' => '10', 'field' => '30')
+        ),
+    ),
 
+    'panels' => array(
+        'default' => array(
 
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
+            array(
+                'name',
+                'assigned_user_name',
+            ),
+        ),
 
-?>
+    ),
+
+);

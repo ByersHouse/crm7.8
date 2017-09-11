@@ -1,16 +1,4 @@
-<?php 
- //WARNING: The contents of this file are auto-generated
-
-
-
-$app_list_strings['call_status_dom']=array (
-  'Planned' => 'Planned',
-  'Held' => 'Held',
-  'Not Held' => 'Not Held',
-  'Missed' => 'Missed',
-  'In Limbo' => 'In Limbo',
-);
-
+<?php
 /**
  *
  * SugarCRM Community Edition is a customer relationship management program developed by
@@ -50,8 +38,44 @@ $app_list_strings['call_status_dom']=array (
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
 
+$module_name = 'bh_Card_ident';
+$searchFields[$module_name] = array(
+    'name' => array('query_type' => 'default'),
+    'current_user_only' => array(
+        'query_type' => 'default',
+        'db_field' => array('assigned_user_id'),
+        'my_items' => true,
+        'vname' => 'LBL_CURRENT_USER_FILTER',
+        'type' => 'bool'
+    ),
+    'assigned_user_id' => array('query_type' => 'default'),
 
-$app_list_strings['moduleList']['bh_Card_ident'] = 'Карта Идентификатор';
-
-?>
+    //Range Search Support
+    'range_date_entered' => array('query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true),
+    'start_range_date_entered' => array(
+        'query_type' => 'default',
+        'enable_range_search' => true,
+        'is_date_field' => true
+    ),
+    'end_range_date_entered' => array(
+        'query_type' => 'default',
+        'enable_range_search' => true,
+        'is_date_field' => true
+    ),
+    'range_date_modified' => array('query_type' => 'default', 'enable_range_search' => true, 'is_date_field' => true),
+    'start_range_date_modified' => array(
+        'query_type' => 'default',
+        'enable_range_search' => true,
+        'is_date_field' => true
+    ),
+    'end_range_date_modified' => array(
+        'query_type' => 'default',
+        'enable_range_search' => true,
+        'is_date_field' => true
+    ),
+    //Range Search Support
+);
