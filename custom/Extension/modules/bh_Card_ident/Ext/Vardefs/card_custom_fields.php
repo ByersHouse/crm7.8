@@ -88,3 +88,51 @@ $dictionary['bh_Card_ident']['fields']['pin_status'] = array (
       'size' => '20',
       'enable_range_search' => false,
 );
+
+
+
+$dictionary['bh_Card_ident']['fields']['block_reason'] = array (
+      'required' => false,
+      'name' => 'block_reason',
+      'vname' => 'LBL_BLOCK_REASON',
+      'type' => 'enum',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => '',
+      'help' => '',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'options' => 'block_reason_list',
+      'studio' => 'visible',
+      'size' => '20',
+      'enable_range_search' => false,
+);
+
+$dictionary['bh_Card_ident']['fields']['secret_word'] = array (
+      'required' => false,
+      'name' => 'secret_word',
+      'vname' => 'LBL_CODE_WORD',
+      'type' => 'varchar',
+      'massupdate' => 0,
+      'no_default' => false,
+      'comments' => 'Кодовое слово',
+      'help' => 'Кодовое слово',
+      'importable' => 'true',
+      'duplicate_merge' => 'disabled',
+      'duplicate_merge_dom_value' => '0',
+      'audited' => false,
+      'inline_edit' => true,
+      'reportable' => true,
+      'unified_search' => false,
+      'merge_filter' => 'disabled',
+      'studio' => 'visible',
+      'size' => '20',
+      'len' => '15',
+      'enable_range_search' => false,
+);

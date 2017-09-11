@@ -80,8 +80,27 @@ array (
         ),
         3 => 
         array (
-          0 => 'description',
-          1 => 
+          0 => 
+          array (
+            'name' => 'secret_word',
+            'studio' => 'visible',
+            'label' => 'LBL_CODE_WORD',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'block_reason',
+            'studio' => 'visible',
+            'label' => 'LBL_BLOCK_REASON',
+          ),
+          1 => 'description',
+        ),
+        5 => 
+        array (
+          0 => 
           array (
             'name' => 'bh_card_ident_leads_name',
           ),
