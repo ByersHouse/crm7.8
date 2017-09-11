@@ -58,6 +58,7 @@ class bh_Card_ident extends Basic
     public $description;
     public $deleted;
     public $date_vidachi;
+    public $date_activation;
     
     public $created_by_link;
     public $modified_user_link;
