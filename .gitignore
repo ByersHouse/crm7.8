@@ -8,7 +8,6 @@ upload/*
 # Ignore some files and directories from the custom directory.
 custom/history/*
 custom/blowfish/*
-custom/modulebuilder/*
 custom/working/*
 custom/modules/*/Ext/
 custom/modules/unified_search_modules_display.php
