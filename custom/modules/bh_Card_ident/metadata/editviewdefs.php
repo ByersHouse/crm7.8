@@ -47,9 +47,23 @@ array (
         1 => 
         array (
           0 => 'assigned_user_name',
-          1 => '',
+          1 => 
+          array (
+            'name' => 'date_activation',
+            'label' => 'LBL_DATE_ACTIVATION',
+          ),
         ),
         2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'card_status',
+            'studio' => 'visible',
+            'label' => 'LBL_CARD_STATUS',
+          ),
+          1 => '',
+        ),
+        3 => 
         array (
           0 => 'description',
           1 => 
